@@ -1,0 +1,8 @@
+ addnodo(&a, 5);
+ addnodo(&a->izq, 4);
+ addnodo(&a->izq->izq, 3);
+ addnodo(&a->izq->der, 6);
+
+ addnodo(&a->der, 8);
+ addnodo(&a->der->izq, 5);
+ addnodo(&a->der->izq->der, 6);

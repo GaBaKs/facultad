@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1744334076 source:d:\xd\desktop\facultad\programacion 2\2do intento (dale que se puedee)\ejer 5\pilas.c
+	<stdio.h>
+	<stdlib.h>
+	"pilas.h"
+
+1744334182 d:\xd\desktop\facultad\programacion 2\2do intento (dale que se puedee)\ejer 5\pilas.h
+
+1744334853 source:d:\xd\desktop\facultad\programacion 2\2do intento (dale que se puedee)\ejer 5\colas.c
+	<stdio.h>
+	<stdlib.h>
+	"colas.h"
+
+1744334157 d:\xd\desktop\facultad\programacion 2\2do intento (dale que se puedee)\ejer 5\colas.h
+
+1744335628 source:d:\xd\desktop\facultad\programacion 2\2do intento (dale que se puedee)\ejer 5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilas.h"
+	"colas.h"
+

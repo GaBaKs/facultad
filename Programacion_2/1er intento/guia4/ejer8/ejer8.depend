@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1726768226 source:d:\xd\desktop\facultad\c\guia 4\ejer8\pilas.c
+	<stdio.h>
+	<string.h>
+	"pilas.h"
+
+1726768210 d:\xd\desktop\facultad\c\guia 4\ejer8\pilas.h
+
+1726769255 source:d:\xd\desktop\facultad\c\guia 4\ejer8\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilas.h"
+
