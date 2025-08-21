@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="hisopados.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="40"/>
+        <CursorPos X="32" Y="100"/>
+        <FoldState Value=" T371K021 PIi10@"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="HISOPADOS.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="8">
+      <Position>
+        <Filename Value="hisopados.lpr"/>
+        <Caret Line="52" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="hisopados.lpr"/>
+        <Caret Line="30" Column="26" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="hisopados.lpr"/>
+        <Caret Line="41" Column="38" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="hisopados.lpr"/>
+        <Caret Line="33" Column="14" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="hisopados.lpr"/>
+        <Caret Line="41" Column="26" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="hisopados.lpr"/>
+        <Caret Line="46" Column="19" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="hisopados.lpr"/>
+        <Caret Line="72" Column="50" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="hisopados.lpr"/>
+        <Caret Line="88" Column="5" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="hisopados.lpr"/>
+        <Caret Line="99" Column="102" TopLine="49"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

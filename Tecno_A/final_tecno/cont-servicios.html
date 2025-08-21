@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <head>
+        <title>turismo</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css.css">
+    </head>
+
+
+    <body>
+
+        <header id="header">
+            <nav class="flexbox">
+                <div id="logo"> <img src="D:\XD\Desktop\Facultad\Tecno_A\final_tecno\logo_viajar.png" alt="logo viajar" width="100px" height="100px">  </div>
+                <div class="itemflex" ><a href="D:\XD\Desktop\Facultad\Tecno_A\final_tecno\nuestros-destinos.html">Nuestros destinos</a></div>
+                <div class="itemflex"><a href="D:\XD\Desktop\Facultad\Tecno_A\final_tecno\prox-viajes.html">Proximos viajes</a></div>
+                <div class="itemflex"><a href="D:\XD\Desktop\Facultad\Tecno_A\final_tecno\cont-servicios.html">Contratar servicios</a></div>  
+            </nav>
+        </header>
+
+        <h3>Contratar servicios</h3>
+       <div id="formulario">
+            <form method="get" name="contratar servicios">
+                 <label class ="lab" for="id-nombre">Nombre: <br></label>
+                 <input type="text" id="id-nombre" name="nombre" maxlength="20" required>
+                <br>
+                 <label class="lab" for="id-email">Email: <br></label>
+                 <input type="email" id="id-email" name="email" maxlength="50" required>
+                <br>
+                 <label class="lab" for="id-tel">Telefono: <br></label>
+                 <input type="tel" id="id-tel" name="tel" required>
+                 <br>
+                 <label class="lab" for="id-dest">Destino: <br></label>
+                 <select class="custom-select">
+                        <option>Playa Paraiso</option>
+                        <option>Montañas del Alba</option>
+                        <option>Valle de la Luna</option>
+                 </select>
+                <br>
+                 <label class="lab" for="id-fecha">Fecha: <br></label>
+                 <input type="date" id="id-fecha" name="fecha"required>
+                <br>
+                 <label class="lab" for="id-cant">Cantidad de personas: <br></label>
+                 <input type="number" id="id-cant" name="cant" min="0" max="10" required>
+                <br>
+
+                 <input id="subir" type="submit" value="Enviar">
+             </form>
+        </div> 
+
+
+            <hr>
+        
+        <footer><i> 2024 Viajar Argentina SRL. Todos los derechos reservados</i></footer>
+    </body>

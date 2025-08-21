@@ -1,0 +1,10 @@
+footer, header{
+    text-align: center;
+}
+.cuerpo{
+    display: flex;
+}
+main > aside > img {
+    width: 200px;
+    height: 200px;
+}

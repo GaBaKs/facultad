@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="26"/>
+        <CursorPos X="26" Y="46"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="HISOPADOS.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="24" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="21" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="23" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="24" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="21" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="23" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="24" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="21" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="23" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="24" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="21" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="23" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="24" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="21" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="23" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="24" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="21" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="23" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="24" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="21" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="26" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="28" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="30" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="31" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="32" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="33" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="34" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="35" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="36" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerrecu2122020.lpr"/>
+        <Caret Line="37" TopLine="15"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="ejerrecu2122020.lpr"/>
+        <Line Value="37"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

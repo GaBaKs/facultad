@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="parcial.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="53"/>
+        <CursorPos X="13" Y="100"/>
+        <FoldState Value=" T3iR0Dd"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="46" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="56" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="39" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="41" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="42" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="44" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="45" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="46" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="48" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="50" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="51" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="54" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="46" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="48" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="50" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="51" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="54" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="46" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="48" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="50" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="51" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="54" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="46" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="56" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="58" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="59" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="61" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="62" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="63" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="39" TopLine="31"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

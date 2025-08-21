@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ej3g9.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="70"/>
+        <CursorPos X="14" Y="110"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="8">
+      <Position>
+        <Filename Value="ej3g9.lpr"/>
+        <Caret Line="126" Column="36" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3g9.lpr"/>
+        <Caret Line="73" Column="18" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3g9.lpr"/>
+        <Caret Line="79" Column="80" TopLine="59"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3g9.lpr"/>
+        <Caret Line="84" Column="22" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3g9.lpr"/>
+        <Caret Line="97" Column="23" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3g9.lpr"/>
+        <Caret Line="100" Column="27" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3g9.lpr"/>
+        <Caret Line="113" Column="26" TopLine="90"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3g9.lpr"/>
+        <Caret Line="110" Column="35" TopLine="90"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3g9.lpr"/>
+        <Caret Line="37" Column="14" TopLine="14"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

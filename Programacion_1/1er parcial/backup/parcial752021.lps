@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="parcial752021.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="19"/>
+        <CursorPos X="17" Y="82"/>
+        <FoldState Value=" T3iD1KT"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="HISOPADOS.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="21"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+      <Unit>
+        <Filename Value="encriptado.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="23" Y="12"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="24" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="25" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="22" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="24" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="25" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="26" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="22" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="24" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="25" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="22" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="24" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="29" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="52" Column="59" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="53" Column="66" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="43" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="66" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="67" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="68" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="110" Column="109" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="86" Column="12" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="89" Column="18" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="93" Column="24" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="87" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="89" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="84" Column="12" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="87" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="96" Column="8" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="88" Column="29" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial752021.lpr"/>
+        <Caret Line="22" Column="11" TopLine="5"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

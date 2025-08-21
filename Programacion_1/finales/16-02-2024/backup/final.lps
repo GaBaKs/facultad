@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="final.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="108"/>
+        <CursorPos Y="124"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="67" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="68" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="67" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="68" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="67" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="69" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="70" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="102" TopLine="86"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="103" TopLine="86"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="92" TopLine="86"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="105" TopLine="86"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="87" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="89" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="108" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="110" TopLine="83"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="111" TopLine="84"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="87" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="89" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="108" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="110" TopLine="83"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="111" TopLine="84"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="87" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="89" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="108" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="110" TopLine="83"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="111" TopLine="84"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="87" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="122" TopLine="106"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="123" TopLine="106"/>
+      </Position>
+      <Position>
+        <Filename Value="final.lpr"/>
+        <Caret Line="80" TopLine="76"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="final.lpr"/>
+        <Line Value="149"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

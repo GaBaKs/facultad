@@ -1,0 +1,45 @@
+:root{
+    --fondo: lightblue;
+    --borde: white;
+    --seleccion: orange;
+}
+footer,header,section{
+    background-color: var(--fondo);
+    display: flex;
+    justify-content: center;
+}
+footer{
+    margin: 1cm;
+    padding: 0.5cm;
+}
+footer > a {
+    text-decoration: none;
+}
+main > section{
+    border: 5px;
+    border-color: blue;
+}
+main > h2{
+    text-align: center;
+    padding: 5px;
+}
+main{
+    background-color: var(--fondo);
+}
+form{
+    padding: 10px;
+    border: 2px solid var(--borde);
+}
+section *::selection{
+    background-color: var(--seleccion);
+}
+.boton{
+    background-color: lightgreen;
+    color: black;
+}
+.boton:hover{
+    background-color: red;
+}
+section{
+    padding: 10px;
+}

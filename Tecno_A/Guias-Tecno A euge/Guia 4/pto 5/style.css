@@ -1,0 +1,18 @@
+*{
+    background-color: linen;
+}
+img {
+    width: 1000px;
+    height: 200px;
+}
+ul,li{
+    background-color: blue;
+}
+li{
+    color: yellow;
+    text-align: center;
+}
+.linkcolor{
+    text-decoration-color: violet;
+    color: brown;
+}

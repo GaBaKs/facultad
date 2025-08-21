@@ -1,0 +1,29 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    width: 150px;
+    height: 600px;
+    border-collapse: collapse;
+}
+td{
+    border: 2px solid gray;
+}
+
+#volver{
+    color:red;
+    text-decoration:underline solid green ;
+    text-align: center;
+}
+
+#bot{
+    color:blue;
+    text-align: center;
+}
+
+td{
+    color:white;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+}

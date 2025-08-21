@@ -1,0 +1,5 @@
+Evento                  Fecha                  Lugar
+Torneo de fútbol        15 de marzo de 2025   Estadio Monumental
+Carrera de atletismo    22 de marzo de 2025   Parque Central
+Clases de tenis         29 de marzo de 2025   Club de Tenis
+Exhibición de natación  5 de abril de 2025    Natatorio Municipal

@@ -1,0 +1,93 @@
+program segp1c2023;
+uses crt;
+const
+  max=20;
+type
+  Rniv=record
+    nivel:byte;
+    autos:word;
+    tiempo:real;
+  end;
+  Vniv=array[1..max] of rniv;
+  MatB=array[1..max,1..max] of byte; //mat cantidad de autos
+  MatT=array[1..max,1..max] of real; //mat horas
+
+Procedure Leemats(var matb1:matb; var matt1:matt; var n,m:byte);
+var
+  i,j:word;
+begin
+    n:=5;
+    m:=3;
+    For i:=1 to n do
+        for j:=1 to m do
+        begin
+            writeln('Ingrese valor (',i,' , ',j,') de la matriz de autos y acontinuacion la de tiempos:');
+            readln(matb1[i,j]);
+            readln(matt1[i,j]);
+        end;
+end;
+
+
+Procedure A(matb1:matb; matt1:matt; var vniv1:vniv; n,m:byte; var k:byte);
+var
+    cumple:boolean;
+    i,j:byte;
+    suma:word;
+    tiempo:real;
+begin
+    k:=0;
+    For i:=1 to n do
+    begin
+        suma:=0;
+        tiempo:=0;
+        cumple:=true;
+        for j:=1 to m do
+        begin
+            suma:=(suma+matb1[i,j]);
+            tiempo:=(tiempo+matt1[i,j]);
+            if (matb1[i,j]=0) then
+                cumple:=false;
+        end;
+        if cumple then
+        begin
+            k:=k+1;
+            vniv1[k].nivel:=i;                    //guardo en un vec de registros los niveles que cumplen la condicion.
+            vniv1[k].autos:=suma;
+            vniv1[k].tiempo:=(tiempo/suma);
+            Writeln(vniv1[k].nivel,' / ',vniv1[k].autos,' / ',(vniv1[k].tiempo):5:2);
+        end;
+    end;
+end;
+
+Function b(matb1:matb; i,j,k,cant,x:byte):byte;   //recursivo                                      //cuantos niveles tienen exactamente 1 plaza con x vehiculos
+begin
+  if i>0 then
+    if (j>=1) then             //mayor o igual para que evalue todas las columnas incluyendo la 1
+        if (matb1[i,j]>x) then
+            b:=b(matb1,i,j-1,k,cant+1,x)
+        else
+            b:=b(matb1,i,j-1,k,cant,x)
+    else
+        if (cant<>1) then
+            b:=b(matb1,i-1,k,k,0,x)
+        else
+            b:=(1+b(matb1,i-1,k,k,0,x))
+  else
+    b:=0;
+end;
+
+var
+    matb1:matb;
+    matt1:matt;
+    vniv1:vniv;
+    n,m,k,x:byte;
+
+begin
+    Leemats(matb1,matt1,n,m);
+    A(matb1,matt1,vniv1,n,m,k);
+    Writeln('Ingrese un valor x para el inciso B: ');
+    readln(x);
+    Writeln('La respuesta del inciso b es= ',b(matb1,n,m,m,0,x));
+    readln();
+    readln();
+end.                                                                  

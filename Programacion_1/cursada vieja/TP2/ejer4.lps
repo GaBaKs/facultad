@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ejer4.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="2"/>
+        <CursorPos X="4" Y="29"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="13">
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="25" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="11" Column="31"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="16" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="9" Column="36"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="14" Column="35"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="16" Column="50"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="21" Column="19"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="13" Column="36"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="6"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="7"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="6"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="7" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="6"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="18" Column="12"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

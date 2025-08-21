@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="parcial.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="189"/>
+        <CursorPos Y="212"/>
+        <FoldState Value=" T3J0C212 PiUjU0\"/>
+        <UsageCount Value="31"/>
+        <Bookmarks Count="1">
+          <Item0 X="45" Y="79" ID="9"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Combustible.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="18" Y="3"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Ventas.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="18" Y="2"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="212" TopLine="189"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="185" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="187" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="188" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="189" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="149" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="150" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="151" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="153" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="154" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="151" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="153" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="154" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="155" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="151" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="157" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="161" TopLine="109"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="190" TopLine="176"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="191" TopLine="176"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="165" TopLine="151"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="166" TopLine="151"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="170" TopLine="151"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="172" TopLine="151"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="173" TopLine="151"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="175" TopLine="151"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="165" TopLine="151"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="166" TopLine="151"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="170" TopLine="151"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="172" TopLine="151"/>
+      </Position>
+      <Position>
+        <Filename Value="parcial.lpr"/>
+        <Caret Line="173" TopLine="151"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

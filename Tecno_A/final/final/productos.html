@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+    <head>
+
+        <link rel="stylesheet" href="styleproductos.css">
+
+    </head>
+
+    <body>
+        <header>
+
+            <h1 id="titulo">Deportes Abiertos</h1>
+            <h2 id="subtitulo">Tienda de articulos deportivos</h2>            
+            
+        </header>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+            </ul>
+        </nav>
+
+        <main id="principalproductos">
+            <section id="formulario">
+
+                <form method="get">
+                    <label class="tituloform" for="id-select">Categoría</label>
+                    <select id="id-select" name="Categoria" class="boton">
+                        <option value="0">Todas</option>
+                        <option value="1">Ropa Calzado</option>
+                        <option value="2">Pelotas</option>
+                        <option value="3">Accesorios</option>
+                    </select>
+                    <label class="tituloform" for="checkboxlista">Marca</label>
+                      <div id="checkboxlista">
+                        <label><input type="checkbox" name="Nike">Nike</label>
+                        <label><input type="checkbox" name="Adidas">Adidas</label>
+                        <label><input type="checkbox" name="Speed">Speed</label>
+                        <label><input type="checkbox" name="Hydro">Hydro</label>
+                      </div>
+
+                      <label class="tituloform" for="id-desde">Precio</label>
+                      <input id="id-desde" class="boton" type="number" placeholder="Desde">
+                      <input class="boton" type="number" placeholder="Hasta">
+                      <input id="botonsubmit" class="margin boton" type="submit" value="filtrar">
+                </form>
+
+            </section>
+
+            <section id="grid">
+                <article class="elemgrid">
+                    <img src="remera.jpg" alt="remera" class="imagengrid">
+                    <p class="producto">Remera deportiva</p>
+                    <p class="precio">$29000</p>
+                </article>
+                <article class="elemgrid">
+                    <img src="calzas.jpg" alt="calzas" class="imagengrid">
+                    <p class="producto">Calzas deportivas</p>
+                    <p class="precio">$32000</p>
+                </article>
+                <article class="elemgrid">
+                    <img src="short.jpg" alt="short" class="imagengrid">
+                    <p class="producto">Short deportivo</p>
+                    <p class="precio">$25000</p>
+                </article>
+                <article class="elemgrid">
+                    <img src="mujer.jpg" alt="Malla mujer" class="imagengrid">
+                    <p class="producto">Malla para mujer</p>
+                    <p class="precio">$37000</p>
+                </article>
+                <article class="elemgrid">
+                    <img src="hombre.jpg" alt="Malla hombre" class="imagengrid">
+                    <p class="producto">Malla para hombre</p>
+                    <p class="precio">$35000</p>
+                </article>
+                <article class="elemgrid">
+                    <img src="zapatillas.jpg" alt="zapatillas" class="imagengrid">
+                    <p class="producto">Zapatillas deportivas</p>
+                    <p class="precio">$45000</p>
+                </article>
+                <article class="elemgrid">
+                    <img src="futbol.jpg" alt="pelota de futbol" class="imagengrid">
+                    <p class="producto">Pelota de fútbol</p>
+                    <p class="precio">$18000</p>
+                </article>
+                <article class="elemgrid">
+                    <img src="basquet.jpg" alt="pelota de basquet" class="imagengrid">
+                    <p class="producto">Pelota de básquet</p>
+                    <p class="precio">$16000</p>
+                </article>
+                <article class="elemgrid">
+                    <img src="golf.jpg" alt="equipo de golf" class="imagengrid">
+                    <p class="producto">Equipo de golf</p>
+                    <p class="precio">$120000</p>
+                </article>
+                <article class="elemgrid">
+                    <img src="tenis.jpg" alt="raqueta de tenis" class="imagengrid">
+                    <p class="producto">Raqueta de tenis</p>
+                    <p class="precio">$80000</p>
+                </article>
+                <article class="elemgrid">
+                    <img src="guantes.jpg" alt="guantes" class="imagengrid">
+                    <p class="producto">Guantes de portero</p>
+                    <p class="precio">$25000</p>
+                </article>
+                <article class="elemgrid">
+                    <img src="botines.jpg" alt="botines" class="imagengrid">
+                    <p class="producto">Botines de fútbol</p>
+                    <p class="precio">$35000</p>
+                </article>
+            </section>
+
+
+        </main>
+
+
+
+        <hr id="gris">
+        <footer>
+            <p id="footerid">© 2025 Deportes Abiertos. Todos los derechos revervados.</p>
+        </footer>
+
+    </body>
+
+</html>
+

@@ -1,0 +1,21 @@
+.Objetivos{
+    background-color: lightblue;
+    padding: 10px;
+    border: 10px;
+    margin: 0;
+    display: inline-block;
+
+
+}
+
+.Reg_ev{
+    background-color: aquamarine;
+    margin: 10px;
+    display: inline-block;
+}
+
+.anuncios{
+    margin: 100px;
+    display:inline-block;
+
+}

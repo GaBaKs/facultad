@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ejer5.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="31" Y="16"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="8">
+      <Position>
+        <Filename Value="ejer5.lpr"/>
+        <Caret Line="15" Column="7"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer5.lpr"/>
+        <Caret Line="18" Column="122"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer5.lpr"/>
+        <Caret Line="3" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer5.lpr"/>
+        <Caret Line="7" Column="25"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer5.lpr"/>
+        <Caret Line="13" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer5.lpr"/>
+        <Caret Line="14" Column="24" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer5.lpr"/>
+        <Caret Line="16" Column="43"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer5.lpr"/>
+        <Caret Line="18" Column="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer5.lpr"/>
+        <Caret Line="17" Column="99"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

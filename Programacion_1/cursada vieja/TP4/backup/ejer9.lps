@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ejer9.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="54" Y="21"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="6">
+      <Position>
+        <Filename Value="ejer9.lpr"/>
+        <Caret Line="20" Column="52"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer9.lpr"/>
+        <Caret Line="5" Column="8"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer9.lpr"/>
+        <Caret Line="10" Column="27"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer9.lpr"/>
+        <Caret Line="21" Column="57"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer9.lpr"/>
+        <Caret Line="20" Column="46"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer9.lpr"/>
+        <Caret Line="21" Column="53"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer9.lpr"/>
+        <Caret Line="20" Column="49"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

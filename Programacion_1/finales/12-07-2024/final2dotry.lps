@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="final2dotry.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="54"/>
+        <CursorPos X="4" Y="91"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="44" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="46" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="48" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="50" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="52" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="53" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="55" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="56" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="73" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="37" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="39" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="41" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="46" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="48" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="50" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="55" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="56" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="73" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="37" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="39" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="41" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="46" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="60" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="62" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="68" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="69" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="60" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="62" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="64" Column="21" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="final2dotry.lpr"/>
+        <Caret Line="102" TopLine="67"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

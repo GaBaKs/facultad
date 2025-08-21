@@ -1,0 +1,6 @@
+MUY BAJA           1000
+BAJA               2000
+MEDIA              3000
+ALTA               4000
+MUY ALTA           5000
+EXTRAORDINARIA     6000

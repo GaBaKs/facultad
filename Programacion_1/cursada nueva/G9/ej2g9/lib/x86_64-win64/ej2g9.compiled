@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1469148810"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -l -vewnhibq -FiC:\Users\Gc\Desktop\ej2g9\lib\x86_64-win64 -FuC:\Users\Gc\Desktop\ej2g9\ -FUC:\Users\Gc\Desktop\ej2g9\lib\x86_64-win64\ -FEC:\Users\Gc\Desktop\ej2g9\ -oC:\Users\Gc\Desktop\ej2g9\ej2g9.exe ej2g9.lpr"/>
+</CONFIG>

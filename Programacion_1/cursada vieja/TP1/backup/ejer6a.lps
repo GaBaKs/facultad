@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ejer6a.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="56" Y="10"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="4">
+      <Position>
+        <Filename Value="ejer6a.lpr"/>
+        <Caret Line="10" Column="61"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer6a.lpr"/>
+        <Caret Line="3" Column="18"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer6a.lpr"/>
+        <Caret Line="8" Column="19"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer6a.lpr"/>
+        <Caret Line="10" Column="58"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer6a.lpr"/>
+        <Caret Line="9" Column="13"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

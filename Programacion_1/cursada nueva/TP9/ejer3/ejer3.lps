@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ejer3.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="57"/>
+        <CursorPos Y="88"/>
+        <FoldState Value=" TC855;"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="88" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="25" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="26" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="27" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="28" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="30" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="31" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="32" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="28" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="30" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="31" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="32" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="28" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="34" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="89" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="43" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="44" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="45" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="46" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="47" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="48" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="49" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="50" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="52" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="53" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="54" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="55" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="56" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="58" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer3.lpr"/>
+        <Caret Line="59" TopLine="30"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

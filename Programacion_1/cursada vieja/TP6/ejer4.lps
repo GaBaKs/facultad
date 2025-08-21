@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ejer4.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="36"/>
+        <CursorPos X="11" Y="83"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ejer4.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="4" Y="2"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="9"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="10"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="11"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="12" Column="24"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="60" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="61" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="7"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="8"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="9"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="10"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="11"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="12"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="15"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="16"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="17"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="18"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="19"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="20"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="12"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="15"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="16"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="17"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="18"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="19"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="20"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="12"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="66" Column="8" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer4.lpr"/>
+        <Caret Line="71" Column="103" TopLine="42"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+    <HistoryLists>
+      <List Name="LaunchingApplication" Type="File" Count="1">
+        <Item1 Value="c:\windows\system32\cmd.exe /C ${TargetCmdLine}"/>
+      </List>
+    </HistoryLists>
+  </ProjectSession>
+</CONFIG>

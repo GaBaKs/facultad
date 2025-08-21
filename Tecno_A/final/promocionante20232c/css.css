@@ -1,0 +1,122 @@
+:root{
+background-color: lightcoral;
+    font-size: 10px;
+    --color-rojo: darkred;
+    --color-gris: gray;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+#flexheader{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:white;
+    align-items: center;
+}
+
+#titulo{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#menu{
+    background-color: var(--color-rojo);
+}
+
+#menu > ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    color:white;
+    padding: 2em;
+}
+
+#menu > ul > li > a{
+    color:white;
+    font-weight: bold;
+}
+
+#datoform{
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+#botonconfirmar{
+    background-color: var(--color-rojo);
+    color:white;
+    border: 1px solid var(--color-rojo);
+    border-radius: 5px;
+}
+
+
+.principalflex{
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.art{
+   background-color: white;
+    border: 10px var(--color-rojo);
+    border-radius: 10px;
+    
+}
+
+.imagen{
+    width: 70%;
+    height: 15rem;
+
+}
+
+.art {
+    background-color: white;
+    flex-basis: 22%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+    border: 1px solid var(--color-rojo);
+}
+
+.nombreproducto{
+    text-decoration: underline var(--color-rojo);
+    color: var(--color-rojo);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.precio{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+/*footer*/
+
+#textofooter{
+    text-align: end;
+    font-size: 1.5rem;
+
+}
+
+.colorfooter{
+    color: var(--color-gris)
+
+}
+
+
+#flextest{
+    display: flex;
+    flex-direction: column;
+}

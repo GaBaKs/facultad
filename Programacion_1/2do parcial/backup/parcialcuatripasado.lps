@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="parcialcuatripasado.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="70"/>
+        <CursorPos X="22" Y="83"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="5">
+      <Position>
+        <Filename Value="parcialcuatripasado.lpr"/>
+        <Caret Line="93" Column="41" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="parcialcuatripasado.lpr"/>
+        <Caret Line="61" Column="43" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="parcialcuatripasado.lpr"/>
+        <Caret Line="58" Column="47" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="parcialcuatripasado.lpr"/>
+        <Caret Line="64" Column="8" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="parcialcuatripasado.lpr"/>
+        <Caret Line="58" Column="47" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="parcialcuatripasado.lpr"/>
+        <Caret Line="60" Column="17" TopLine="46"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

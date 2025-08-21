@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ej2g9.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="63"/>
+        <CursorPos Y="80"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="80" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="81" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="85" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="86" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="87" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="71" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="91" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="92" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="98" TopLine="65"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="99" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="100" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="71" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="73" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="74" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="75" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="76" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="77" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="79" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="80" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="81" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="85" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="86" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="87" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="71" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="73" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="74" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="75" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="76" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="77" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej2g9.lpr"/>
+        <Caret Line="79" TopLine="63"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="ej2g9.lpr"/>
+        <Line Value="71"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

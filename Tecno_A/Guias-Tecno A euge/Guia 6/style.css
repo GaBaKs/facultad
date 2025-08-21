@@ -1,0 +1,69 @@
+:root{
+    --fondoHyF: aquamarine;
+}
+main{
+    display: inline-block;
+}
+section,aside {
+    display: inline-block;
+    vertical-align: top;
+}
+section{
+    width: 70%;
+    float: left;
+}
+aside{
+    width: 20%;
+    float: right;
+}
+header,footer{
+    position: sticky;
+    background-color: var(--fondoHyF);
+}
+header{
+    top: 0;
+}
+footer{
+    bottom: 0;
+}
+nav > ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;    
+}
+nav > ul > li{
+    margin: 0 0.5em;
+}
+nav > ul > li > a {
+    color: darkblue;
+    text-decoration: none;
+}
+nav > ul > li > a:hover {
+    text-decoration: underline;
+}
+nav > ul > li > a:active {
+    color: darkred;
+    text-decoration: underline;
+}
+section > article:nth-child(odd){
+    background-color: beige;
+    color: blue;
+}
+section > article:nth-child(even){
+    background-color: lightblue;
+    color: yellow;
+}
+section > article:nth-child(odd) *::selection{
+    background-color: orange;
+}
+section > article:nth-child(even) *::selection{
+    background-color: blueviolet;
+}
+section > article *::selection{
+    color: aliceblue;
+}
+section > article:not(:last-child){
+    border-bottom: 1px solid grey;
+}

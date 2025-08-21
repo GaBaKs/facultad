@@ -1,0 +1,35 @@
+:root {
+    --fondo-padre: blue;
+    --fondo-hijo: white;
+    --borde-hijo: black;
+    --fondo-sobre: orange;
+    --fondo-click: white;
+    --borde-click: red;
+  }
+  
+  .padre {
+    background-color: var(--fondo-padre);
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .hijo {
+    font-weight: normal;
+    background-color: var(--fondo-hijo);
+    border: 5px solid var(--borde-hijo);
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .padre:hover .hijo:nth-child(odd)
+   {
+    background-color: var(--fondo-sobre)
+  ;
+  }
+  
+  .padre:has(:active) .hijo:not(:last-child)
+   {
+    border: 5px dotted var(--borde-click);
+    background-color:var(--fondo-click);
+  }

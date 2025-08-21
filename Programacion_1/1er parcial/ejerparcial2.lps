@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ejerparcial2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="parcial752021"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="15" Y="15"/>
+        <FoldState Value=" T6i1228"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="HISOPADOS.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+      <Unit>
+        <Filename Value="encriptado.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="12"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="5">
+      <Position>
+        <Filename Value="ejerparcial2.lpr"/>
+        <Caret Line="7397" Column="90" TopLine="7380"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerparcial2.lpr"/>
+        <Caret Line="25" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerparcial2.lpr"/>
+        <Caret Line="31" Column="4" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerparcial2.lpr"/>
+        <Caret Line="8" Column="95" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerparcial2.lpr"/>
+        <Caret Line="40" Column="20" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="ejerparcial2.lpr"/>
+        <Caret Line="53" Column="111" TopLine="55"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

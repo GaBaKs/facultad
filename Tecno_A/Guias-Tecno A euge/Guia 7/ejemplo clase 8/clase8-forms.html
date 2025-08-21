@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clase 8 - Formularios</title>
+    <link rel="stylesheet" href="clase8-forms.css">
+</head>
+<body>
+
+    <form name="busqueda" method="get" target="_blank">
+        Búsqueda: <input type="search" name="busq-form">
+    </form>
+
+    
+    <hr>
+
+
+    <!-- Codigo que devuelve al usuario la data (POST)-->
+
+    <form name="formulario" method="post" target="_blank" action="https://formtester.goodbytes.be/post.php">
+
+        Nombre: <input type="text" name="nombre-form" spellcheck="true" placeholder="nombre"> <br>
+        Apellido: <input type="text" name="apellido-form" placeholder="apellido" required> <br>
+        Teléfono: <input type="tel" name="telefono-form"> <br>
+        Sitio Web: <input type="url" name="url-fomr"> <br>
+        Email: <input type="email" name="email-form"> <br>
+        Clave: <input type="password" name="pass-form"> <br>
+        <input type="hidden" name="oculto" value="chusma"> <br>
+        <textarea name="texto-form" placeholder="texto aquí" cols="10" wrap="hard"></textarea> <br>
+        Edad: <input type="number" name="edad-form" min="18" max="110" step="5"> <br>
+        Rango: <input type="range" name="rango-form" min="18" max="110"> <br>
+        Fecha: <input type="date" name="fecha-form" min="2024-04-20" max="2024-05-20"><br>
+        Hora: <input type="time" name="hora-form""><br>
+        Fecha-Hora: <input type="datetime-local" name="fecha-hora-form"><br>
+
+        Casilla de verificación: <input type="checkbox" name="checkbox-form" > <br>
+        Elija una ciudad: <br>
+             <input type="radio" name="radio-form" value="MDP">Mar del Plata <br>
+             <input type="radio" name="radio-form" value="BsAs">Buenos Aires<br>
+             <input type="radio" name="radio-form" value="Cba">Córdoba<br>
+             <input type="radio" name="radio-form" value="Mza">Mendoza<br>
+        <br>
+        Elija una comisión:
+            <select name="select-form">
+                <option value="0" disabled selected>-Elija una opción-</option>
+                <option value="1">Comisión 1</option>
+                <option value="2">Comisión 2</option>
+                <option value="3">Comisión 3</option>
+                <option value="4">Comisión 4</option>
+                <option value="5">Comisión 5</option>
+            </select>
+            <br>
+        Selecciones un Color: <input type="color" name="color-form" value="#cc0000"><br>
+        Seleccione un archivo: <input type="file" name="file-form" accept=".pdf, .odt, image/*">
+        <hr>        
+        <input type="reset" value="Limpiar formulario">
+        <input type="submit" value="Enviar formulario">
+      <!--<input type="image" src="send.png">   
+       <input type="button" value="Botón">
+       <button>Botón Dos</button> -->           
+
+
+    </form>
+</body>
+</html>

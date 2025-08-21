@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="Guia 6.css">
+</head>
+<body>
+    <header>
+      <h1>Formulario</h1>
+      <nav>
+        <a href="#sesion">Inicio de sesion - </a>
+        <a href="#solicitud">Solicitud de empleo - </a>
+        <a href="#contacto">Contacto - </a>
+        <a href="#acta">Acta de examen - </a>
+        <a href="#Busqueda">Busqueda de normas - </a>
+        <a href="#perfil">Perfil red social - </a>
+        <a href="#inscripcion">Inscripcion</a>
+      </nav>
+    </header>
+
+    <main>
+        <section id="sesion">
+            <h2>Inicio de sesion</h2>
+            <form method="post" target="_blank" action="https://formtester.goodbytes.be/post.php">
+                Usuario <input type="text" name="user"> <br>
+                Contraseña: <input type="password" name="password-form"> <br>
+    
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar">
+              </form> 
+        </section>
+        <section id="solicitud">
+            <h2>Solicitud de empleo</h2>
+            <form method="post" target="_blank" action="https://formtester.goodbytes.be/post.php">
+                Nombre: <input type="text"> <br>
+                Apellido: <input type="text" required> <br>
+                CUIL: <input type="number" required> <br>
+                Portafolio (URL): <input type="url"><br>
+
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form method="post" target="_blank" action="https://formtester.goodbytes.be/post.php">
+                Nombre completo: <input type="text" required> <br>
+                Correo: <input type="email" required> <br>
+                Telefono: <input type="number"> <br>
+                Mensaje/comentario: <input type="text"><br>
+
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section id="acta">
+            <h2>Acta de examen</h2>
+            <form method="post" target="_blank" action="https://formtester.goodbytes.be/post.php">
+                Fecha: <br>
+                Asignatura: <select name="asig-form">
+                    <option value="0" disabled selected> -- Elija una opcion --</option>
+                    <option value="1">Materia 1</option>
+                    <option value="2">Materia 2</option>
+                    <option value="3">Materia 3</option>
+                </select> <br>
+                Legajo: <input type="number"> <br>
+                Calificacion: <input type="number" min="1" max="10"> <br>
+
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar">   
+            </form>
+        </section>
+        <section id="Busqueda">
+            <h2>Busqueda de normas</h2>
+            <form method="get" target="_blank">
+             Rango de fechas: <input type="date"> <br>
+             Organo emisor: <select>
+                <option value="0" disabled selected>-- Seleccionar --</option>
+                <option value="1">Opcion 1</option> 
+                <option value="2">Opcion 2</option> 
+                <option value="3">Opcion 3</option>                 
+             </select> <br>
+             Palabra a buscar: <input type="search" name="busc-form"> <br>  
+
+            <input type="reset" value="Limpiar">
+            <input type="submit" value="Enviar"> 
+            </form>
+        </section>
+        <section id="perfil">
+            <h2>Perfil de una red social</h2>
+            <form method="post" target="_blank" action="https://formtester.goodbytes.be/post.php">
+                Usuario: <input type="text" name="user-red"> <br>
+                Foto de perfil: <input type="file" name="foto" accept="image/*"> <br>
+                Intereses: <br>
+                <input type="radio" name="radio-form" value="interes1"> interes1 <br>
+                <input type="radio" name="radio-form" value="interes2"> interes2 <br>
+                <input type="radio" name="radio-form" value="interes3"> interes3 <br>
+                <input type="radio" name="radio-form" value="interes4"> interes4 <br>
+
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section id="inscripcion">
+            <h2>Formulario de inscripcion</h2>
+            <form method="post" target="_blank" action="https://formtester.goodbytes.be/post.php">
+                Nombre: <input type="text" name="nombre"> <br>
+                Apellido: <input type="text" name="apellido"> <br>
+                DNI: <input type="number" name="DNI"> <br>
+                Sexo: <br>
+                <select>
+                    <option value="0" selected disabled>-- Elije una opcion --</option>
+                    <option value="1"> Hombre</option>
+                    <option value="2">Mujer</option>
+                    <option value="3">Otro</option>
+                </select> <br>
+                Fecha de nacimiento: <input type="date" min="1910-01-01" max="2024-01-01"> <br>
+                Ciudad: <br>
+                <select>
+                    <option value="0" selected disabled>-- Elije una opcion --</option>
+                    <option value="1">BS AS</option>
+                    <option value="2">Mardel</option>
+                    <option value="3">Cordoba</option>
+                </select> <br>
+
+
+
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar"> 
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>Eugenio Longaretto - Guia 8 - <a href="#">Volver al inicio</a></p>
+    </footer>
+
+
+</body>
+</html>

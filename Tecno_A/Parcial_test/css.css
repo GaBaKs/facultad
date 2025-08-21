@@ -1,0 +1,34 @@
+
+h1{
+    color:darkred;
+
+}
+
+.pcol{
+    color:rgb(231, 231, 142);
+}
+
+.azulosc{
+    background-color:darkblue;
+}
+
+#rojo{
+    color:red;
+    font-weight: bold;
+}
+
+#amarillo{
+    color:yellow;
+    font-weight: bolder;
+}
+
+#textabla{
+    text-align: center;
+    color: white;
+
+}
+
+#fondoverde{
+ background-color: #259478;
+
+}

@@ -1,0 +1,126 @@
+:root{
+
+    font-size:10px;
+    background-color: lightgoldenrodyellow;
+    --color-rojo: darkred;
+
+}
+
+
+header{
+    text-align: center;
+}
+#titulo{
+    text-decoration: underline solid var(--color-rojo);
+    color: var(--color-rojo);
+    font-size: 1.3rem;
+}
+
+#subtitulo{
+    color: gold;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+#menu{
+    background-color: var(--color-rojo);
+    padding: 5px;
+}
+
+#menu >ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#menu >ul>li{
+    list-style: none;
+}
+
+#menu >ul>li>a{
+    text-decoration: none;
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+#principalproductos{
+    display: flex;
+    flex-direction: row;
+}
+
+#formulario{
+    flex-basis: 40%;
+}
+
+.tituloform{
+    text-decoration: underline solid black;
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+
+#checkboxlista{
+    display: flex;
+    flex-direction: column;
+}
+
+#botonsubmit{
+    background-color: var(--color-rojo);
+    color: white;
+}
+
+.boton{
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 5px;
+}
+
+
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap:10px;
+}
+
+.elemgrid{
+    border:1px solid var(--color-rojo);
+    border-radius: 5px;
+     font-weight: bold;
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.producto{
+    text-decoration: underline solid var(--color-rojo);
+    color: var(--color-rojo);
+    font-size: 1.5rem;
+}
+
+.precio{
+    color:black;
+    font-style: italic;
+    font-size: 2rem;
+
+}
+
+.imagengrid{
+    width: 70%;
+    height: 70%;
+}
+
+#gris{
+    color:gray;
+}
+
+#footerid{
+    text-align: center;
+    font-size: 0.7rem;
+    font-style: italic;
+}

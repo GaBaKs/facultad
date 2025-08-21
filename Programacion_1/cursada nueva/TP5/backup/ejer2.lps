@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ejer2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="8" Y="11"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ejer2.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="5"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="31"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="38"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="13"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="16"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="18"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="19"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="26"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="27"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="29"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="16"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="18"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="19"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="13"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="16"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="18"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="19"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="26"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="27"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="29"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="16"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="18"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="19"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="21"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="22"/>
+      </Position>
+      <Position>
+        <Filename Value="ejer2.lpr"/>
+        <Caret Line="13"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

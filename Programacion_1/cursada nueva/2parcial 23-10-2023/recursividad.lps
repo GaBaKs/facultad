@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="recursividad.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="15" Y="18"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="51" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="52" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="9"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="10"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="15"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="16"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="9"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="10"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="15"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="17"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="9"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="51" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="52" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="9"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="10"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="14"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="15"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="5" Column="24"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="51" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="52" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="9" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="10" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="14" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="15" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="16" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="9" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="10" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="14" TopLine="4"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

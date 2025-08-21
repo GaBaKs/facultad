@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="recursividad.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="19" Y="15"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="2">
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="42" Column="15" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="29" Column="69" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="recursividad.lpr"/>
+        <Caret Line="39" Column="9" TopLine="3"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

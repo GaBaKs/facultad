@@ -1,0 +1,152 @@
+:root{
+    background-color: lightgray;
+}
+
+#header{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemflex{
+    width: fit-content;
+    height:fit-content;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    border-style: dashed;
+
+}
+
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+.flexbox2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.itemflex2{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.imf2{
+    
+    border-radius: 30px;
+}
+
+.titulo{
+      color:black;
+      text-decoration: underline solid black;  
+      font-weight: bold;
+}
+.textflex2{
+   text-align:justify; 
+}
+
+footer{
+    text-align: end;
+    color: gray;
+    position: fixed;
+    width: 100%;
+    bottom:0%;
+    height: 60px;
+
+}
+
+h3{
+    text-align: center;
+    font-weight: normal;
+    font-size:x-large;
+}
+
+
+
+#formulario{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-style:italic;
+
+}
+
+input{
+    width: 400px;
+    border-radius: 7px;
+    height: 25px;
+}
+
+.custom-select {
+   
+    border-radius: 6px;
+    padding: 8px 36px 8px 10px;
+    
+    
+
+   
+    width: 100%; /* O el ancho que quieras */
+  }
+
+
+#tabla1{
+    margin:auto;
+    width: 20%;
+}
+
+.headertabla{
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-weight:500;
+    text-decoration: underline solid white;
+    padding: 10px;
+}
+
+.datotablaN{
+    color:black;
+    font-style: italic;
+    padding: 10px;
+}
+
+.datotablaB{
+    color:white;
+    font-style: italic;
+    padding: 10px;
+}
+
+.filab{
+    background-color: white;
+
+}
+
+.filag{
+    background-color: gray;
+
+}
+
+#subir{
+
+}

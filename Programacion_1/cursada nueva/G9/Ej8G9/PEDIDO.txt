@@ -1,0 +1,12 @@
+AAAA
+S
+1
+10
+AAAA
+S
+2
+15
+BBBB
+X
+3
+1
