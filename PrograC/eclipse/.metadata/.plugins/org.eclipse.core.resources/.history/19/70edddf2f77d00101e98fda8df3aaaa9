@@ -1,0 +1,8 @@
+package ejer1;
+
+public static void main {
+	
+	CuentaBancaria unacuenta = new CuentaBancaria();
+	unacuenta.depositar(1250);
+	
+}
