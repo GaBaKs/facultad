@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Guia1/ejer7/src/|ejer3/src/|eclipse/pruebaguia1/src/|Guia1/ejer4/src/|Guia1/ejer5/src/|Guia1/ejer8/src/|Guia2/|Guia1/ejer6/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="eclipse/pruebaguia1/src"/>
+	<classpathentry kind="src" path="ejer3/src"/>
+	<classpathentry kind="src" path="Guia1/ejer4/src"/>
+	<classpathentry kind="src" path="Guia1/ejer5/src"/>
+	<classpathentry kind="src" path="Guia1/ejer6/src"/>
+	<classpathentry kind="src" path="Guia1/ejer7/src"/>
+	<classpathentry kind="src" path="Guia1/ejer8/src"/>
+	<classpathentry kind="src" path="Guia2"/>
+	<classpathentry kind="output" path="Guia1/ejer5/bin"/>
+</classpath>
