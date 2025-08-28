@@ -22,7 +22,17 @@ public class CuentaBancaria {
 				}
 		}
 		
-		
+		boolean extraer(double monto)
+		{
+			if (monto>this.saldo)
+				return false;
+			else
+			{
+				saldo-=monto;
+				return true;
+			}
+				
+		}
 		
 		
 		
@@ -31,19 +41,12 @@ public class CuentaBancaria {
 			return saldo;
 		}
 
-		public void setSaldo(double saldo) {
-			this.saldo = saldo;
-		}
+
 
 		public String getTitular() {
 			return titular;
 		}
 
-		public void setTitular(String titular) {
-			this.titular = titular;
-		}
-		
-		
 		
 		
 		

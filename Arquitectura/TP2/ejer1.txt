@@ -1,0 +1,21 @@
+    MOV AC,0       // Inicializo el reg DS+4 en 0
+    MOV edx,DS
+    MOV [4], 0     // reseteo el AC      
+inicio: MOV ecx,0x0401  //bits significativos tamaño y bits menos significativos cant celdas
+    MOV eax, 0x01 // preparo para leer decimal
+    SYS 1         // lee numero de teclado
+    CMP [edx],0   // compara si es negativo
+    JN div
+    ADD [4],[edx]  //acumula el num
+    ADD AC, 1    // le sumo uno
+    JMP inicio
+  div: CMP AC,0     //reviso que AC no sea negativo
+    JZ fin
+    DIV [4],AC    //divido acumulador
+    ADD edx,4      //pongo edx en [4]
+    SYS 2
+    fin: STOP
+
+    
+
+    
