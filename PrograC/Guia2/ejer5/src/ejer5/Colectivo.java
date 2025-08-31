@@ -16,7 +16,7 @@ public class Colectivo {
 	@Override
 		public String toString()
 		{
-			return "Modelo: "+ modelo +" "
+			return "Modelo: "+ modelo +" numero interno: " + numerointerno;
 		}
 	
 }

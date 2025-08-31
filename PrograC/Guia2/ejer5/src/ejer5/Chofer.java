@@ -26,7 +26,13 @@ public class Chofer {
 		this.categoria=categoria;
 		this.domicilio=domicilio;
 		this.nombre=nombre;
+		this.colectivo=null;
 	}
 	
+	@Override
+	public String toString()
+	{
+		return "Colectivo: ",colectivo;
+	}
 	
 }
