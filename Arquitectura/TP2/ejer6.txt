@@ -1,0 +1,15 @@
+        MOV edx,DS
+        MOV ecx, 0x0401
+        MOV eax, 0x01
+        SYS 1
+        MOV ebx,edx
+        SYS 1
+        MOV ecx,edx
+        MOV [eax],0
+ciclo:  SUB ebx,ecx
+        ADD eax,1
+        CMP ebx,ecx
+        JNP ciclo
+        ADD ebx,ecx // para que me de el resto
+        MOV AC,ebx
+        STOP

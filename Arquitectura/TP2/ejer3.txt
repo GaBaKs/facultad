@@ -1,0 +1,12 @@
+    MOV edx, DS;    inicio edx en DS
+    LDL ecx,1;      seteo para leer 1 dato de tamaño 4 bytes
+    LDH ecx,4
+    MOV eax,0x01;   leo valor decimal
+    SYS 1
+    MOV eax,0x10;   preparo para leer valor binario
+    MOV edx, DS
+    MOV ecx 0x0101
+    
+ciclo: 
+    SYS 2
+    STOP

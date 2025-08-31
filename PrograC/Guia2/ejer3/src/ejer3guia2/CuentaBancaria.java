@@ -24,12 +24,14 @@ public class CuentaBancaria {
 		
 		boolean extraer(double monto)
 		{
-			if (monto>this.saldo)
-				return false;
-			else
+			if (monto>0 && monto<this.saldo)
 			{
 				saldo-=monto;
 				return true;
+			}	
+			else
+			{
+				return false;
 			}
 				
 		}

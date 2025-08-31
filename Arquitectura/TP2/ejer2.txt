@@ -1,0 +1,19 @@
+    MOV [4], 0
+OTRO:MOV edx, DS
+    MOV ecx, 0x0401
+    MOV eax 0x01
+    SYS 1
+    CMP [edx],0;    veo si es 0
+    JZ sigue
+    CMP[edx],1;     veo si es 1
+    JNZ FIN;        si no es 1 entra aca
+sigue: SHR[4],1;    muevo 1 pos a la derecha para 
+    OR [4],[edx];  sumo a lo que esta en 4 edx
+    JMP OTRO;
+
+FIN: MOV edx, DS
+     ADD edx, 4
+     MOV ecx, 0x0401
+     MOV eax,0x1F
+     SYS 2;
+     STOP
