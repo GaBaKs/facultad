@@ -29,10 +29,14 @@ public class Chofer {
 		this.colectivo=null;
 	}
 	
+	
 	@Override
 	public String toString()
 	{
-		return "Colectivo: ",colectivo;
+	  if (this.colectivo!=null)
+		  return "nombre: "+ nombre + " domicilio: " + domicilio + " categoria: " + categoria + colectivo;
+	  else
+		  return "nombre: "+ nombre + " domicilio: " + domicilio + " categoria: " + categoria + " No tiene un colectivo asignado";
 	}
 	
 }

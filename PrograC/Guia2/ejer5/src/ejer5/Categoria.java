@@ -10,4 +10,10 @@ public class Categoria {
 		this.nombrecategoria=nombrecategoria;
 		this.sueldo=sueldo;
 	}
+	
+	void sueldosup(double sueldo)
+	{
+		if (sueldo>this.sueldo)
+			System.out.print(" "+ nombrecategoria);
+	}
 }
