@@ -1,24 +1,21 @@
 import math
 
-lista=['1','2','3','4','5','6']
-listap = [1/9 , 1/6, 1/9, 1/9, 1/6, 1/3]
 
 def generalista(listap):
     return [math.log2(1/prob) for prob in listap]
 
     
-generalista(listap)
+
 
 def entropia(listap):
         entropia=0
         listai=generalista(listap)
         for i in listap:
             entropia+=i*listai[listap.index(i)]
-        
-        
-        return print("la entropia es de ",entropia)
 
-entropia(listap)
+        return entropia
+
+
 
 def calcula(alf, prob,n):
     if n==1:
@@ -36,11 +33,15 @@ def calcula(alf, prob,n):
 
         return aux,auxp
 
-alf=['a','b','c','d']
-prob=[0.6, 0.2, 0.2, 0.2]
-n=4
-L,P=calcula(alf,prob,n)
+lista=['x','y','z']
+listap = [0.5 , 0.1 , 0.4]
+n=2
+generalista(listap)
+print(n*entropia(listap))
+
+L,P=calcula(lista,listap,n)
 print(L)
 print(P)
-
+print(entropia(P))
     
+
