@@ -1,0 +1,6 @@
+cod 1: instantaneo
+cod 2: bloque
+cod 3: no singular
+cod 4: instantaneo
+cod 5: univoco
+cod 6: no singular
