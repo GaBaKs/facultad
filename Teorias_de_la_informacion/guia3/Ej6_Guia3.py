@@ -26,7 +26,7 @@ def esInstantaneo (C):
 
 def esUnivoco (C):
     if esInstantaneo(C) == True:
-        return True;
+        return True
     else: 
         S = C
         ST = []

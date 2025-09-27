@@ -1,12 +1,12 @@
 import math
 
 
-def calcula(alf, prob,n):
+def calculaordenN(alf, prob,n):
     if n==1:
         return alf,prob
     else:
         
-        L,P= calcula(alf,prob,n-1)
+        L,P= calculaordenN(alf,prob,n-1)
         aux=[]
         auxp=[]
 
@@ -19,7 +19,7 @@ def calcula(alf, prob,n):
 
 alf=['a','b','c','d']
 prob=[0.6, 0.2, 0.2, 0.2]
-n=4
+n=2
 L,P=calcula(alf,prob,n)
 print(L)
 print(P)

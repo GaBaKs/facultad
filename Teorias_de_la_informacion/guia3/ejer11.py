@@ -1,29 +1,15 @@
 import math
-listap = ['==','<','<=','>','>=','<>']
+from libreria import *
+listacodigos = ['==','<','<=','>','>=','<>']
+probV =        [0.10,0.5,0.1,0.2,0.05,0.05]
 
-probV = [0.10,0.5,0.1,0.2,0.05,0.05]
-
-def cadcod(listap):
-    cadena=''
-    for cod in listap:
-        for x in cod:
-            if not x in cadena:
-                cadena+=x
-    return cadena
-
-r=len(cadcod(listap))
-
-def generalista(listap,r):
-    return [prob*math.log(1/prob,r) for prob in listap]
+ent=entropia(probV,2)
 
 
-def entropia(listap):
-        entropia=0
-        listai=generalista(probV)
-        for i in listai:
-            entropia+=i*listai[listap.index(i)]
-        
-        
-        return print("la entropia es de ",entropia)
+def longitudMedia(listacodigos,listaprob):
+    L=0
+    for i in range(len(listacodigos)):
+        L+=len(listacodigos[i])*listaprob[i]
+    return L
 
-entropia(listap)
+print("entropia: ",ent,"long media: ",longitudMedia(listacodigos,probV))

@@ -3,21 +3,19 @@ import math
 
 listap = [0.5 , 0.25 , 0.25]
 
-def generalista(listap):
-    return [math.log2(1/prob) for prob in listap]
+def generalistainfo(listap):
+    return [math.log(1/prob) for prob in listap]
 
     
 
 
-generalista(listap)
+generalistainfo(listap)
 
 def entropia(listap):
         entropia=0
-        listai=generalista(listap)
+        informacion=generalistainfo(listap)
         for i in listap:
-            entropia+=i*listai[listap.index(i)]
-        
-        
-        return print("la entropia es de ",entropia)
+            entropia+=i*informacion[listap.index(i)]
+        return entropia
 
 entropia(listap)

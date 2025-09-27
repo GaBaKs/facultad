@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1758400791 source:d:\xd\desktop\mv-arqui-2c2025\dissasembler.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"TDA.h"
+	"mascaras.h"
+	"Operaciones_Generales.c"
+
+1758400791 d:\xd\desktop\mv-arqui-2c2025\tda.h
+
+1758259058 d:\xd\desktop\mv-arqui-2c2025\mascaras.h
+
+1758400791 d:\xd\desktop\mv-arqui-2c2025\operaciones_generales.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mascaras.h"
+	"TDA.h"
+	"Codigos_Registros.h"
+	"math.h"
+
+1758161182 d:\xd\desktop\mv-arqui-2c2025\codigos_registros.h
+
+1758400931 source:d:\xd\desktop\mv-arqui-2c2025\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"TDA.h"
+	"mascaras.h"
+	"Operaciones_Generales.h"
+	"Operaciones.h"
+	"Codigos_Registros.h"
+	"Dissasembler.h"
+
+1758400791 d:\xd\desktop\mv-arqui-2c2025\operaciones_generales.h
+	"TDA.h"
+
+1758400791 d:\xd\desktop\mv-arqui-2c2025\operaciones.h
+	"TDA.h"
+
+1758400791 d:\xd\desktop\mv-arqui-2c2025\dissasembler.h
+	"TDA.h"
+
+1758400791 source:d:\xd\desktop\mv-arqui-2c2025\operaciones_generales.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mascaras.h"
+	"TDA.h"
+	"Codigos_Registros.h"
+	"math.h"
+
+1584205420 source:d:\xd\desktop\facultad\arquitectura\testmv\sd\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1758401251 source:d:\xd\desktop\mv-arqui-2c2025\operaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<time.h>
+	"TDA.h"
+	"mascaras.h"
+	"Operaciones_Generales.h"
+	"Codigos_Registros.h"
+
