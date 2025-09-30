@@ -1,9 +1,9 @@
-import math;
+import math
 from libreria import *
 import random
 
 
-cad = "CAAACCAABAACBBCABACCAAABCBBACC"
+cad = "CAAACCAABAACBBCABACCAAABCBBACCDEFG"
 
 
 simbolos,cant=cuentasimbolos(cad)
@@ -46,13 +46,13 @@ def getcolumna(matriz,alfabeto,caracter):
     
     return aux
 
-def simularMensaje(simbolos,matriz,longitud,simbolo_inicial):
+def simularMensaje(simbolos,matriz,longitud1,simbolo_inicial):
     mensaje = []
     if simbolo_inicial == '':
         simbolo_inicial = random.choice(simbolos)[0]
     mensaje.append(simbolo_inicial)
-
-    for x in range(longitud - 1):
+    longitud1 -= 1
+    for x in range(longitud1):
         simbolo_actual = mensaje[-1]
         columna=getcolumna(matriz,simbolos,simbolo_actual)
         siguiente_simbolo=random.choices(simbolos,weights=columna,k=1)[0]
@@ -60,6 +60,7 @@ def simularMensaje(simbolos,matriz,longitud,simbolo_inicial):
 
     return mensaje
 
+print(simularMensaje(simbolos,matT,10,''))
 
 #c
 

@@ -186,6 +186,27 @@ def esUnivoco (C):
         else: 
             return False
 
+def creastringcodigo (C):        #lo traemos del ejercicio anterior porque necesitamos la cantidad de simbolos de x (r)
+    cadena = ""
+    for c in C:
+        for x in c:
+            if not x in cadena:
+                cadena += x
+    return cadena
+
+
+def esCompacto (codigo, prob):
+    if esInstantaneo(codigo) == False:
+        return False
+    else:     
+        r=len(creastringcodigo(codigo))
+        aux = [math.ceil(abs(math.log(x,r))) for x in prob]
+        if all(len(x)<= y for x,y in zip(codigo, aux)):
+            return True
+        else:
+            return False
+        
+
 #devuelve r
 def cadcod(listacodigos):
     cadena=''

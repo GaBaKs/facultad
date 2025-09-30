@@ -1,5 +1,5 @@
 import math
-
+import random
 
 
 def generalistainfoN(listap,base):
@@ -34,6 +34,74 @@ def probabilidadlista(simbolos,cant):
         listaprob.append(cant[simbolos.index(i)]/total)
      return listaprob
 
+def MatrizDeTransicion (simbolos,cad):
+    matT = [ [0 for _ in range(len(simbolos))] for _ in range(len(simbolos))]
+    cadL = list(cad) #a la cadena la hago lista
+    for i in range(len(simbolos)):
+        for j in range(len(simbolos)):
+            canti = 0
+            for k in range(len(cadL) - 1): #cuento apariciones de la dupla
+                if cadL[k] == simbolos[i] and cadL[k+1] == simbolos[j]:
+                    canti += 1
+            matT[i][j] = canti # pongo cant de la dupla en la ubicacion de la matriz
+
+    for j in range(len(matT)):
+        tot = 0
+        for i in range(len(matT)):
+            tot += matT[i][j] #sumo cantidades de esa letra por columna
+        
+        for i in range(len(matT)):
+            matT[i][j] = matT[i][j] / tot
+    
+    return matT
+
+def getcolumna(matriz,alfabeto,caracter):
+    aux=[]
+    for i in matriz:
+        aux.append(i[alfabeto.index(caracter)])
+    
+    return aux
+
+def simularMensaje(simbolos,matriz,longitud,simbolo_inicial):
+    mensaje = []
+    if simbolo_inicial == '':
+        simbolo_inicial = random.choice(simbolos)[0]
+    mensaje.append(simbolo_inicial)
+
+    for x in range(longitud - 1):
+        simbolo_actual = mensaje[-1]
+        columna=getcolumna(matriz,simbolos,simbolo_actual)
+        siguiente_simbolo=random.choices(simbolos,weights=columna,k=1)[0]
+        mensaje.append(siguiente_simbolo)
+
+    return mensaje
+
+
+def tipofuente (matT, tol):
+    r = 1
+    i = 0
+    while (i in range(len(matT))) and r: 
+        fila = matT[i] # le doy la fila entera
+        j = 0
+        while j in range(len(fila) - 1) and r: # recorro fila
+            k = j + 1
+            while k in range(len(fila)) and r:
+                if fila[j] - fila[k] > tol:
+                    r = 0
+                k += 1
+            j += 1
+        i += 1
+    if r:
+        print("Fuente de memoria nula")
+    else:
+        print("Fuente de memoria no nula")
+
+def entropiamatT(matT,vecest):
+        entropi=0  
+        for fila in range(len(vecest)):  
+         suma=entropia(matT[fila],2)                             
+         entropi+=suma*vecest[fila]                                                                                        
+        return entropi
 
 def calculaordenN(alfabeto, prob,n):
     if n==1:
@@ -118,6 +186,27 @@ def esUnivoco (C):
         else: 
             return False
 
+def creaStringCodigo (C):        #lo traemos del ejercicio anterior porque necesitamos la cantidad de simbolos de x (r)
+    cadena = ""
+    for c in C:
+        for x in c:
+            if not x in cadena:
+                cadena += x
+    return cadena
+
+
+def esCompacto (codigo, prob):
+    if esInstantaneo(codigo) == False:
+        return False
+    else:     
+        r=len(creaStringCodigo(codigo))
+        aux = [math.ceil(abs(math.log(x,r))) for x in prob]
+        if all(len(x)<= y for x,y in zip(codigo, aux)):
+            return True
+        else:
+            return False
+        
+
 #devuelve r
 def cadcod(listacodigos):
     cadena=''
@@ -138,4 +227,10 @@ def kraft(listacodigos):
    for x in long:
         suma+=r**-x
    return suma
+
+def longitudMedia(listacodigos,listaprob):
+    L=0
+    for i in range(len(listacodigos)):
+        L+=len(listacodigos[i])*listaprob[i]
+    return L
 

@@ -34,11 +34,11 @@ matriz= [
     [0.25 , 0.14 , 0.6]
     ]
 vecest= [0.3333,0.3333,0.3333]
-tol=0.000001
+tol=0.1
 
 
 
 print("vecx original: ",vecest)
 vecest=vectorest(matriz,vecest,tol)
 print("vec cambiado:",vecest)
-print("la entropia total es de ",entropia(matriz,vecest))
+print("la entropia total es de ",entropiamatriz(matriz,vecest))
