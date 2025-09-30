@@ -22,7 +22,7 @@ def generalista(listap):
     
 
 
-def entropia(matriz,vecest):
+def entropiamatriz(matriz,vecest):
         entropia=0  
         for fila in range(len(matriz)):                                   
          entropia+=sum(generalista(matriz[fila]))*vecest[fila]                                                                                        

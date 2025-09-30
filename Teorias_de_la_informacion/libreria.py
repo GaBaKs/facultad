@@ -96,12 +96,6 @@ def tipofuente (matT, tol):
     else:
         print("Fuente de memoria no nula")
 
-def entropiamatT(matT,vecest):
-        entropi=0  
-        for fila in range(len(vecest)):  
-         suma=entropia(matT[fila],2)                             
-         entropi+=suma*vecest[fila]                                                                                        
-        return entropi
 
 def calculaordenN(alfabeto, prob,n):
     if n==1:
