@@ -1,0 +1,23 @@
+<!-- Guia 7, Ejercicio 5 -->
+<?xml version="1.0"?>
+<!DOCTYPE rss
+[
+<!ELEMENT rss (channel)>
+<!ATTLIST rss
+          version CDATA #REQUIRED> <!-- Como agrego los otros att??? --> 
+<!ELEMENT channel (title, link, description, language, item+)> <!-- Uso '*'en item ??? -->
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>    <!-- Aunq sea link es PCDATA o CDATA en attlist??? -->
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT item (title, link, description, enclosure, pubDate)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>    
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT enclosure EMPTY>
+<!ATTLIST enclosure
+          url CDATA #REQUIRED
+          type CDATA #REQUIRED>
+]> 
+
+<!-- Son REQUIRED o no? -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> <!-- Algo mas especifico aca??? -->
+<!-- Guia 7 - Ej 1 -->
+<!-- Usar + atributos - elem. ??? -->
+<factura>
+        <datos>
+              <tipo>A</tipo>
+              <numero>1234</numero>
+              <tipo_pago>Tarjeta</tipo_pago> <!-- Agregar nro cheque como opcional??? -->
+              <cant_remito>1</cant_remito>
+        </datos>
+        <empresa>
+                <nombre>Dell Inc.</nombre>                                     
+                <direccion>Asd 123</direccion>
+                <cuit>6789056</cuit>
+                <contacto>
+                         <tel>2231111</tel>
+                         <mail>asd@dell.com</mail>
+                </contacto>
+        </empresa>
+        <cliente tipo = "minorista">
+                <nombre>Pepe</nombre>                     		            
+                <direccion>Zxc 456</direccion>
+                <cuit>358543</cuit>
+                <contacto>
+                         <tel>2234343</tel>
+                         <mail>pepe@gmail.com</mail>
+                </contacto>
+        </cliente>
+        <cant_renglon>1</cant_renglon>  <!-- Esta bn el contador para saber cuantos "renglones" son??? SI -->
+        <renglon>
+              <codigo>9889</codigo>
+              <descrp>Ed. Especial</descrp>
+              <cant>2</cant>
+              <precio>2499</precio>
+              <iva>0.21</iva>
+              <importe></importe>
+        </renglon>
+        <dato_total>
+              <tipo_desc>promo</tipo_desc>
+              <desc>500</desc>
+              <total>5547.58</total> 
+        </dato_total>
+</factura>

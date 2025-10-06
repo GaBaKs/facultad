@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<!-- Guia 7 - Ej 2 -->
+<entrada>
+        <cod_boleto>1234</cod_boleto>
+        <funcion>A1C6</funcion>
+        <fecha>
+              <dia>28</dia>
+              <mes>10</mes>
+              <anio>2018</anio>
+        </fecha>
+        <ubicacion fila = "1" asiento = "A"></ubicacion>
+        <precio>150.0</precio>
+        <cant_cod_prom>2</cant_cod_prom>
+        <cod_prom>PROM_1</cod_prom>
+        <cod_prom>PROM_2</cod_prom>
+        <nom_func>Terminator 6</nom_func>
+</entrada>
