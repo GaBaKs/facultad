@@ -1,0 +1,34 @@
+En una arquitectura con un MBR de 32 bits, un MAR de 24 bits para direccionamiento de celdas de
+memoria, 4 MiB de memoria principal (RAM) y considerando un tamaño de página de 1024 celdas
+de 4 bytes para una estrategia de administración de memoria de paginación por demanda.
+a) Defina el espacio de direccionamiento virtual y el espacio de direccionamiento físico e
+indique el tamaño de las direcciones virtuales y físicas.
+b) Indique el tamaño de cada Frame (marco de página) y la cantidad de Frames que puede
+haber en la memoria.
+c) Dada la dirección virtual: 0x0038F8, y suponiendo que la página se aloja en el frame 0x05:
+indique el número de página y offset y la dirección física.
+d) Indique el tamaño máximo teórico (en MiB) que puede tener un proceso y en cuantas
+páginas se divide.
+
+
+MAR = 24bits MBR = 32bits RAM = 4MiB = 2^22 bytes TamPag = 2^10 celdas * 4 bytes/celda = 2^12 bytes
+
+a)
+	Direccionamiento Fisico Maximo= 2^24 bytes = 64MiB
+	Direcciones Físicas = 22 bits - Limitados por los componentes
+	Direcciones Logicas = 24 bits
+	Direccionamiento Logico Maximo = 2^24 bytes = 16MiB
+	Offset = 12 bits
+b)
+	Tamaño de Frame = Tamaño de Pagina = 2^12 bytes
+	Cant de Frames = Tamaño de la RAM / Tamaño de Frame = 2^22 / 2^12 = 2^10 Frames
+
+c)
+	Dir Lógica = 0x0038F8 = 0000 0000 0011 1000 1111 1000
+	Offset = 1000 1111 1000 = 8 + 16 + 32 + 64 = 120 = 0x8F8
+	N° de Pagina = 0000 0000 0011 = 2 + 1 = 3
+
+	Dir Fisica = (0x05 * 2^12) + Offset = 0x05000 + 0x0F8 = 0x058F8
+d)
+	Tam Max Proceso = 2^24 bytes
+	Cant de Paginas = Tam Max de Proceso / Tam de Pag = 2^24 / 2^12 = 2^12 paginas

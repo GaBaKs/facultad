@@ -1,0 +1,29 @@
+Para implementar una estrategia de paginación por demanda, donde se dispone de una
+arquitectura de microprocesador con un registro MAR de 30 bits y un MBR de 32bits.
+a. Cuál sería el tamaño (en bytes) de cada celda de memoria?
+b. Si se destina 12 bits para el offset de cada página: ¿En cuántas páginas se debe dividir el
+proceso y que tamaño tendría cada página?
+c. Si se desea que la memoria principal soporte 1024 frames. ¿Qué tamaño (en Megabytes)
+debe tener la memoria física y Cuál sería el espacio de direccionamiento físico?
+d. Dada la dirección física 0x6A68D, sabiendo que corresponde a la página 0x3 de un proceso.
+¿Cuál es la dirección lógica?
+
+MAR = 30 bits MBR = 32 bits
+
+a)
+	Tamaño de celda = Obtenible por el MBR = 32 bits = 4 bytes
+b)
+	Tamaño de Pagina = 2^offset celdas * 4 bytes/celda = 2^12 * 2^2 bytes/celda = 2^14 bytes
+	Tamaño Max de Proceso = 2^30 bytes = 4GiB
+	Cant de Paginas = 2^30 bytes / 2^14 bytes/pagina = 2^16 paginas	
+c)
+	La mem ppal soporta 1024 frames = 2^10 frames.
+	Tam de frames = Tam de Paginas = 2^14 bytes
+	Tam mem ppal = 2^10 * 2^14 = 2^24 bytes = 16MiB
+	Direccionamiento Fisico = 24bits = 16MiB
+d)
+	dir física = 0x6A68D con 12 bits de offset
+	base = 0x6A000
+	offset = 0x68D
+	Si se corresponde con la pagina 0x3
+	dir lógica = (0x3 * 2^14) + 0x68D = 0x3068D

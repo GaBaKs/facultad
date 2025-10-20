@@ -1,0 +1,14 @@
+Diseñar una memoria caché asociativa de 4096 Kib con 1024 líneas y un tamaño de bloque de 4
+Kib.
+
+Al ser asociativa tiene 3 campos: Bit de Presencia, Nro de Bloque y Dato.
+
+Tamaño: 4096 Kib = 2^22 bytes 
+Cant de líneas: 1024 = 2^10 líneas
+Tam de Bloque: 4 Kib = 2^12 bytes
+
+Cant de Bloques: 2^22 bytes / 2^12 bytes/bloque = 2^10 bloques
+
+Para direccionar 2^10 bloques se necesitan 10 bits.
+
+Direccionamiento = Bit de Presencia + Direccionamiento de Bloque + Dato = 1 bit + 10bits + 2^22 bits

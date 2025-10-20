@@ -1,0 +1,17 @@
+"Diseñar una memoria caché asociativa de 4096 Kib con 1024 líneas y un tamaño de bloque de 4
+Kib."
+Utilizar las dimensiones de la memoria anterior y modelar una memoria de acceso directo.
+Especificar el tamaño de etiqueta, renglón y bloque.
+
+Al ser de acceso directo tiene 3 campos: Bit de Presencia, Etiqueta y Dato.
+
+Tam de Bloque: 4 Kib = 2^12 bytes
+Tam de Memoria 4096 Kib = 2^22 bytes
+Cant de Bloques: 2^22 bytes / 2^12 bytes/bloques = 2^10 bloques
+
+Renglones = 1024 renglones = 2^10 renglones
+Tam Renglón = 10 bits
+
+Direcciones de 23bits (Dato del ej 1)
+
+Bit de presencia + Etiqueta + Dato = 23 bits -> Etiqueta = 23 bits - 13 bits = 10 bits
