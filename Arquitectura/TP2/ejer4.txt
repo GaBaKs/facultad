@@ -5,7 +5,7 @@
     MOV ecx,0x0401
     SYS 1
     MOV ebx,[edx]
-    SYS 1*
+    SYS 1
     MOV ecx,[edx]
 ciclo: ADD eax,ebx
        ADD AC,1

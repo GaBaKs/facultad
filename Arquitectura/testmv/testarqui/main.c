@@ -1,114 +1,67 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "TDA.h" //Vacio, los prototipos
-#include "mascaras.h"
-#include "Operaciones_Generales.h"
-#include "Operaciones.h"
-#include "Codigos_Registros.h"
-#include "Dissasembler.h"
-int verifica_cabecera(unsigned char cabecera[5]);
-void inicializacion(char nombre_arch[],TipoMKV *MKV);
-void ejecucion(TipoMKV *MKV);
+
+
+
+
+#pragma once
+
+#define MAX 10
+#define REGISTROS 32
+#define MEMORIA 16384
+#define CANTCELDAS 4
+#define SEGMENTOS 6
+#define ENTRADAS
+typedef struct TipoMKV{
+    int reg[REGISTROS];           // Cantidad de registros
+    unsigned char *mem;            // Cantidad de memoria
+    unsigned short tabla_seg[4]; // tabla_seg[SEGMENTOS][ENTRADAS] 6 filas para los segmentos y 2 columnas para donde empieza y cuanto mide habria que cambiar bastante
+    int flag;
+    int tamanoRAM;
+}TipoMKV;
 
 int main(){
-    printf("arranca\n");
-    return 0;
-}
+    TipoMKV MKV;
+    int aux;
+    int argc=3;
+    char * argv[argc];
+    argv[0]="-p";
+    argv[1]="test";
+    argv[2]="mario";
+    argv[3]="gaby";
 
+    int argc2;
+    int argv2[200];
+    int flag;
 
-
-int verifica_cabecera(unsigned char cabecera[5]){ //Verifica la version de la cabecera
-    int i=0;
-    unsigned char comp[6]={'V','M','X','2','5','1'};
-    while (i<6 && comp[i]==cabecera[i])
+ int i=1;
+    argc2=0;
+    while (i<argc && strcmp(argv[i],"-p")==0)
         i++;
-    if (i==6)
-        return 1; //Version correcta
-    else
-        return 0; //Version erronea
-}
-||=== Build: Debug in sd (compiler: GNU GCC Compiler) ===|
- MV-arqui-2C2025\main.o||No such file or directory|
-||=== Build failed: 1 error(s), 0 warning(s) (0 minute(s), 0 second(s)) ===|
-
-
-
-void inicializacion(char nombre_arch[],TipoMKV *MKV){
-    FILE *arch;
-    int i;
-    i = 0;
-    int desp=0;
-    unsigned char cabecera[6];
-    //MKV->codigo_error=0;
-    arch= fopen("sample.vmx", "rb");
-        if (arch == NULL)
-            printf("Error al abrir el archivo");
-        else{
-            for (int j=0;i<5;i++)
-                fread(&cabecera[j], sizeof(unsigned char), 1, arch);
-            fread(&cabecera[5], sizeof(unsigned char), 1, arch);
-            if (verifica_cabecera(cabecera)){
-                fread(&MKV->tabla_seg[0],sizeof(unsigned char),1,arch);         // base CS
-                fread(&MKV->tabla_seg[1], sizeof(unsigned char), 1, arch);        // tamano max CS
-                MKV->tabla_seg[2]=MKV->tabla_seg[1];                            //base DS
-                MKV->tabla_seg[3]=16384-MKV->tabla_seg[2];                      //tamano max DS
-                 while (fread(&MKV->mem[MKV->reg[CS]+desp], sizeof(unsigned char), 1, arch) == 1)  //Guarda las instrucciones en el code segment
-                     desp++;
-                 fclose(arch);
-            }
-            else
-                printf("Error al leer cabecera");
+    if (i<argc){        // hay -p
+        flag=1;
+        aux=0;
+        i++;
+        while (i<argc){
+            strcpy(MKV.mem[aux],argv[i]);
+            argv2[argc2]=aux;       //aux va a ir contando el inicio de cada palabra, osea que calcula el offset
+            aux+=strlen(argv[i])+2;
+            argc2++;
+            i++;
         }
-}
-
-
-
-void ejecucion(TipoMKV *MKV){
-    //nombre del arch?
-    inicializacion("sample.vmx",MKV);
-    dissa(*MKV);
-    char instruccion;
-    int TopA,TopB;
-    int dirfis;
-    int shift;
-    void (*Fops2[16])(TipoMKV *, int, int, int, int )={MOV , ADD , SUB , MUL , DIV , CMP , SHL , SHR , SAR , AND , OR , XOR , SWAP , LDL , LDH , RND};
-    void (*Fops1[9])(TipoMKV *,int,int )={SYS , JMP , JZ , JP , JN , JNZ , JNP , JNN , NOT};
-    MKV->reg[CS] = MKV->tabla_seg[0] << 16;                          //inicializo el CS en los 8 MSB
-    MKV->reg[DS] = MKV->tabla_seg[1]+0x00010000;                    //Inicializo del DS una posicion mas del CS
-    MKV->reg[IP] = MKV->reg[CS];
-    while ( MKV->reg[IP]!=-1 ){   // mientas no exista un error o se termine la memoria                 MKV->codigo_error==0 &&
-        dirfis=logifisi(*MKV ,MKV->reg[IP]);
-        if (dirfis==-1)
-            verificaerrores(MKV,3);   //error: fallo de segmento
-        else{
-            instruccion=MKV->mem[dirfis];   // guardo la instruccion de donde apunta IP
-            if (codinvalido(instruccion))     // error: Codigo invalido
-                verificaerrores(MKV,1);
-            else{
-                MKV->reg[OPC]= instruccion & MASC_CODOP;        // guardo el cod de operacion en OPC
-                getOperandos(MKV,instruccion,dirfis);
-                if (MKV->reg[OPC]==0x0F)                       // STOP
-                    MKV->reg[IP]=-1;
-                else{
-                    if (MKV->reg[OPC]>=0x10 && MKV->reg[OPC]<=0x1F){ //dos operandos (testeado)
-                        TopA=instruccion & MASC_TOPA >> 4;
-                        TopB=instruccion & MASC_TOPB >> 6;
-                        cambioip(MKV,TopA,TopB);
-                        Fops2[instruccion & 0x0F](MKV,escopeta(MKV->reg[OPA]),TopA,escopeta(MKV->reg[OPB]),TopB);
-                    }
-                    else
-                        if (MKV->reg[OPC]>=0x00 && MKV->reg[OPC]<=0x08){    //un operando
-                            TopA=instruccion & MASC_TOPB >> 6;
-                            SWAP(MKV,escopeta(MKV->reg[OPA]),TopA,escopeta(MKV->reg[OPB]),TopB);           //SWAP(MKV,opA,TopA,opB,TopB) //MKV->reg[OPA]=MKV->reg[OPB];    //por especificacion de la catedra / SWAP
-                            Fops1[instruccion](MKV,escopeta(MKV->reg[OPA]),TopA);
-                        }
-                }
-            }
+        // guardo las direcciones despues de todos los datos
+        i=0;
+        while (i<argc2){
+            strcpy(MKV.mem[aux],argv2[i]);
+            aux+=strlen(argv2[i])+2;
+            i++;
         }
     }
+    for (i=0;i<aux;i++){
+        printf("%c /n",MKV.mem[i]);
+    }
+
+
 }
-
-
 

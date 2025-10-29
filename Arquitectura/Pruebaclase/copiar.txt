@@ -1,18 +1,55 @@
-Convertir:
+TITULO equ 2
+NOMBRE equ 6
+HIJOS equ 10
+
+LISTANIVEL: 
     push bp
     mov bp,sp
-    sub sp,4; hacemos espacio en la pila para guardar el puntero destino
-    mov efx,bp
-    sub efx,4;guarda el puntero destino en efx
-    mov [efx],null 
-    mov edx,[bp+8]
-    push efx; doble puntero al destino
-    push edx; doble puntero al origen
-    call move_ABB
-    add sp,8
-    mov [edx],[efx]; LINEA MAS IMPORTANTE!! esto cambia a donde apunta el puntero almacenado en edx(doble puntero) a lo que apunta el puntero destino(1er nodo del arbol)
-Convertir_fin:
+    push eax
+    push ebx
+    push ecx
+    push edx
+    push eex
+    push efx
 
+    mov efx,[bp+16];NIVEL
+    mov ebx,[bp+12];*arbol puntero al inicio del arbol
+    mov edx [bp+8],**lista;
+    sub efx,1;  sub modifica CC
+    jz insertar;    nivel=0
+    jn finlista; nivel<0
+    mov ecx,0; i=0
+    mov eex, [ebx+HIJOS];   eex apunta a los HIJOS
+
+otro:
+    cmp eex,NULL; L!=null . En este caso, eex ahora pasa a ser el nodo, por eso se saca []
+    jz finlista
+
+    push efx
+    push [eex + HIJONODO] ; 0 significativo, es por como accedes xq ahora no es mas un arreglo y son nodos sueltos
+    push   edx
+    call LISTANIVEL
+    add sp,12
+    mov eex, [eex+HIJOSIG]; lo mismo que L=L->sig
+    jmp otro
+
+insertar:
+    add EBX,NOMBRE ; calculo el puntero del nombre a mandar
+    push ebx
+    call NUEVONODO
+    add sp,4
+    mov [eax+LISTSIG],[edx]
+    mov [edx],eax
+
+finlista:
+    pop efx
+    pop eex
+    pop edx
+    pop ecx
+    pop ebx
+    pop eax
     mov sp,bp
     pop bp
     ret
+    
+
