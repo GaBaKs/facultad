@@ -1,0 +1,68 @@
+
+
+ID equ 0
+nombre equ 2
+next equ 6
+null equ -1
+nodo equ 10
+
+
+
+push <id>   ;BP+12
+push < -> nombre> ;BP+8
+call lnode_new
+add sp,8
+;devuelve en eax el puntero nuevo
+
+lnode_new:
+            push bp
+            mov bp,sp
+            push nodo
+            call MALLOC
+            add sp,4
+            cmp eax,null
+            JZ fin
+            mov w[eax+ID],w[bp+14]
+            mov [eax+nombre],[bp+8]
+            mov [eax+next],null
+
+        fin:
+            mov sp,bp
+            pop bp
+            ret
+
+
+push < -> -> lista> ;bp+12
+push < ->nodo>      ;bp+8
+call list_insert_sorted
+add sp,8
+;no devuelve nada
+
+list_insert_sorted:
+                    push bp
+                    mov bp,sp
+                    push ebx
+                    push ecx
+                    push edx
+                    mov edx,[bp+12]; **head
+                    mov ebx,[edx]; *head
+                    mov ecx,[bp+8]; nodo nuevo
+
+                    cmp ecx,null
+                    jz fin
+        while:      cmp ebx,null
+                    jz fin_while
+                    cmp w[ebx+id],w[ecx+id]
+                    JP fin_while
+                    add ebx,next
+                    mov edx,ebx
+                    mov ebx,[edx]
+                    JMP while
+        fin_while:  mov [ecx+next],ebx
+                    mov [edx],ecx
+        fin:        pop edx
+                    pop ecx
+                    pop ebx
+                    mov sp,bp
+                    pop bp
+                    ret

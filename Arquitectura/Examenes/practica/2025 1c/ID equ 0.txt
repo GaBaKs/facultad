@@ -3,6 +3,7 @@ nombre equ 2
 next equ 6
 nodo equ 10
 NULL equ -1
+
 firma:
 push <ID>; [BP+12]
 push <nombre> [BP+8]
@@ -25,8 +26,8 @@ lnode_new: push bp
 
 
 firma:
-push <head> [BP+12]
-push <nodoingresar> [BP+8]
+push < -> -> head> [BP+12]
+push < -> nodoingresar> [BP+8]
 call list_insert_sorted
 add sp,8
 
@@ -56,3 +57,93 @@ list_insert_sorted: push bp
                     mov sp,bp
                     pop bp
                     ret
+
+push < -> arbol>
+push invoca_files
+add sp,4
+;devuelve en eax -> a lista
+
+push < -> -> a lista>
+push < ->nodo arbol>
+call files_read_only
+add sp,8
+;no devuelve nada
+
+//44 min para hacer estas dos y las de arriba ni idea
+
+invoca_files:   
+                push bp
+                mov bp,sp 
+
+                sub sp,4; creo var local
+                push ebx
+
+                mov ebx,bp
+                sub ebx,4
+                mov [ebx],NULL; inicio puntero doble
+                push ebx
+                push [bp+8]
+                call files_read_only
+                add sp,8
+                
+                mov eax,[ebx]; -> lista
+                pop ebx
+                mov sp,bp
+                pop bp
+                ret
+
+atributos equ 2
+nombreA equ 4
+canth equ 12
+hijos equ 14
+
+files_read_only:
+                push bp
+                mov bp,sp
+                push eax
+                push ebx
+                push ecx
+                push edx
+                push eex
+
+                mov ebx,[bp+8]; -> arbol
+                mov ecx, [bp+12]; -> -> lista
+                cmp [ebx],NULL
+                jz fin
+
+                mov dx,w[ebx+atributos]; guardo los 2 bytes de atributos
+                and dx,0x0204
+                cmp dx,0x0004
+                jnz llamohijo
+                ;cumplio
+                push w[ebx+id]
+                push [ebx+nombre]
+                call lnode_new
+                add sp,8
+
+                push ecx
+                push eax
+                call list_insert_sorted
+                add sp,8
+
+                mov ax,w[ebx+canth]
+                mov eex,[ebx+hijos]
+ llamohijo:     cmp ax,0
+                jz fin
+                push ecx
+                push [eex]
+                call files_read_only
+                add sp,8
+                sub ax,1
+                add eex,4
+                jmp llamohijo
+
+fin:            pop eex
+                pop edx
+                pop ecx
+                pop ebx
+                pop eax
+                mov sp,bp
+                pop bp
+                ret
+

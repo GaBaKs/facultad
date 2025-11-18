@@ -1,0 +1,12 @@
+clinica.modelo.facturacion
+clinica.modelo.habitacion
+clinica.modelo.personas
+clinica.modelo.personas.medicos
+clinica.modelo.personas.pacientes
+clinica.modulos
+clinica.modulos.atencion
+clinica.modulos.ingreso
+clinica.patrones.decorator
+clinica.patrones.facade
+excepciones
+test
