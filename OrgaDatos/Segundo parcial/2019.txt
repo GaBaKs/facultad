@@ -1,0 +1,77 @@
+2)
+EL CAMINO SE HACE AL ANDAR
+
+AMAT
+ABCDEFGHIJKLMNÑOPQRSTUVWXTZ
+VWXYZAMTBCDEFGHIJKLNÑOPQRSU 
+
+a)
+ZE XVFBGI NZ TVXZ VE VGYVL 
+b)
+xd
+
+4)
+9X7t3eraajww7t
+
+7)
+<Temperaturas>
+	<Reg>
+		<Dia>21-11-2016</dia>
+		<Lugar1>
+			15
+		</Lugar1>
+		<Lugar2>
+			20
+		</Lugar2>
+		<Lugar3>
+			18
+		</Lugar3>
+	</Reg>
+	<Reg>
+		<Dia>22-11-2016</dia>
+		<Lugar1>
+			22
+		</Lugar1>
+		<Lugar2>
+			20
+		</Lugar2>
+		<Lugar3>
+			28
+		</Lugar3>
+	</Reg>
+<Temperaturas>
+
+{"Temperaturas":{
+	"Reg":[
+		{
+		"Dia":"21-11-2016",
+		"Lugar1":"22",
+		"Lugar1":"20",
+		"Lugar1":"18",
+		},
+		"Dia":"22-11-2016",
+		"Lugar1":"15",
+		"Lugar2":"20",
+		"Lugar3":"28",
+		},
+	]
+}
+
+8)
+
+a)3115144234 32244211 44153115512443243433
+b)xd
+
+22)
+N	O	E	S	T	A	N	D	I	F	I	C	I	L
+P	O	L	I	B	I	O	P	O	L	I	B	I	O
+14	16	5	20	21	1	14	4	9	6	9	3	9	12
+17	16	12	9	2	9	16	17	16	12	9	2	9	16
++
+31	32	17	29	23	10	30	21	25	22	18	5	18	28
+
+4	5	17	2	23	10	3	21	26	22	18	5	18	1
+D	E	P	B	V	J	C	T	Y	U	Q	E	Q	A
+NO ES TAN DIFICIL
+DE PB VJC TYUQEQA
+

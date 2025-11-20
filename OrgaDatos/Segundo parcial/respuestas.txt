@@ -1,0 +1,171 @@
+REPUESTAS:
+
+1) a,c,d
+
+2)
+	a) ZE XVFBGI NZ TVXZ VE VGYVL
+	b) JVNVL JVLVFZÑLIN JIL PVEIL
+
+3) c (revisar)
+
+4) 9X7T3ERAAJWW7T
+
+5) b
+
+6) No afecta por igual, ya que por ejemplo en RLE no lo tiene en cuenta del todo; no debe hacer un procesamiento de todo el alfabeto, sino que directamente va comprimiendo a medida que lee el archivo.
+
+En cambio en Huffman, el tamaño del alfabeto sí afecta porque cuanto más grande sea, más procesamiento debe hacer en la primera pasada del archivo para generar el árbol; para asi recién en la segunda pasada poder codificar haciendo recorridos en ese árbol.
+
+7)
+XML
+
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+
+<registroTemperaturas>
+
+     <reg>
+
+          <dia> 21-11-2016 </dia>
+
+          <lugar1> 15 </lugar1>
+
+          <lugar2> 20 </lugar2>
+
+          <lugar3> 18 </lugar3>
+
+     </reg>
+
+     <reg>
+
+          <dia> 22-11-2016 </dia>
+
+          <lugar1> 22 </lugar1>
+
+          <lugar2> 20 </lugar2>
+
+          <lugar3> 28 </lugar3>
+
+     </reg>
+
+</registroTemperaturas>
+
+
+JSON
+
+{
+  "registroTemperaturas": {
+    "reg": [
+      {
+        "dia": " 21-11-2016 ",
+        "lugar1": " 15 ",
+        "lugar2": " 20 ",
+        "lugar3": " 18 "
+      },
+      {
+        "dia": " 22-11-2016 ",
+        "lugar1": " 22 ",
+        "lugar2": " 20 ",
+        "lugar3": " 28 "
+      }
+    ]
+  }
+}
+
+8) 
+	a) 3515144234 32244211 44153115512443243433
+	b) 1531 4334214452114215 1543 3215243442 134511331434 1543 3124124215
+
+9) Comprimiría más la primer imagen, ya que tiene menos colores solidos, entonces serán mas largas las secuencias del mismo color, y si usamos compresion RLE tendra menos casos diferentes (en la segunda imagen al tener mas colores, la secuencia de compresion será mas larga debido a esa cantidad de colores).
+
+10) b
+
+11) Lo que tienen en comun es que forman parte de la Metadata.
+
+
+El nombre es un identificador en formato de texto que nos permite a nosotros saber rapidamente que archivo es.
+
+
+La ruta indica en que lugar de nuestro sistema se encuentra el archivo, para que cuando lo abramos el file system sepa donde buscar.
+
+
+Y el identificador es mas para uso interno del file system.
+
+12) REVISAR
+
+13) REVISAR
+
+14)a
+
+15)
+<?xml version="1.0" encoding="UTF-8"?>
+
+<agenda>
+
+     <contacto>
+
+          <nombre> Enzo </nombre>
+
+          <telefonoFijo> 4912222 </telefonoFijo>
+
+          <telefonoMovil> 2235123456 </telefonoMovil>
+
+     </contacto>
+
+     <contacto>
+
+          <nombre> Javi </nombre>
+
+          <telefonoMovil> 2235123456 </telefonoMovil>
+
+          <telefonoMovil> 2236987654 </telefonoMovil>
+
+     </contacto>
+
+</agenda>
+
+16) Emitir un certificado de revocación:
+
+Es lo que se genera para que en un futuro podamos revocar una firma. Es un archivo que se guarda en nuestra computadora y esta asociado a la clave que querramos revocar. Al momento de importar este archivo a nuestra lista de claves, se revoca la firma.
+
+
+Revocar una firma:
+
+Al revocar una firma, lo que hacemos es deshabilitar la clave publica que hayamos firmado. Seguiremos teniendo dicha clave pero no podremos encriptar ningun mensaje con ella. Aunque sí podremos desencriptar  con la privada. Se utiliza cuando sospechamos o tenemos certeza que dicha clave ya no es confiable o fue usurpada por un tercero.
+
+
+Borrar clave:
+
+Es la accion de eliminar completamente alguna clave de nuestro listado. Ya no tendremos informacion alguna sobre ella por lo que no se podra encriptar/desencriptar. Se utiliza cuando dicha clave ya no tiene validez por alguna razon, o simplmente no se usa más o se cambió por otra.
+
+17) REVISAR
+
+18) a
+
+19) 
+Cuando encriptamos un mensaje, estamos aportando confidencialidad, pero nada mas.
+
+El acto de encriptar es ocultar de cierta manera el mensaje que queramos mandar, haciendo que sea complicado descifrarlo sin conocer como se encriptó. Estamos resguardando la informacion.
+
+Un modo de encriptar es mediante un par de llaves: publica y privada. La privada solo la conocemos nosotros y la publica se la podemos pasar a quien queramos. Para encriptar un mensaje se usa la llave publica del receptor así este ultimo puede desencriptarlo.
+
+
+Cuando firmamos un mensaje, estamos aportando autenticidad e integridad (no repudio).
+
+El acto de firmar es obtener mendiante una funcion hash, un identificador del documento, que luego es encriptado con nuestra clave privada. Se manda ese conjunto y ademas nuestra clave publica. El receptor hace de vuelta el hashing del documento y ademas desencripta el identificador recibido con la cave publica. Si ambos identificadores son iguales, significa que el documento no fue alterado luego de realizar la firma.
+
+Esto nos sirve por un lado para detecar posibles modificaciones del archivo y por otro para verificar la identidad del emisor.
+
+20) c,d
+
+21)
+a) UE TATL EZ WNC OTRB EENVRCL JUF XUZEA HUW PVOSGC EO ELCFXA
+b) EALACVAZEA GS NNB AEXKCWLS MVJ VUGJC
+
+25)a
+
+26) a,c,d
+
+
+ABCDEFGHIJKLMNÑOPQRSTUVWXYZ
+     AMT																			
+VWXYZAMTBCDEFGHIJKLNÑOPQRSU

@@ -1,0 +1,18 @@
+Huffman:
+http://huffman.ooz.ie/?text=LINDO%20JUEVES%20SOLEADO
+
+XML to JSON
+http://www.utilities-online.info/xmltojson/#.XdZ3jVdKjIW
+
+Encriptador:
+https://cryptii.com/pipes/caesar-cipher
+
+
+------------------------------------------
+Cesar:
+https://es.planetcalc.com/1434/?license=1
+https://eduescaperoom.com/cifrado-cesar/
+
+Vigenere:
+https://es.planetcalc.com/2468/
+------------------------------------------

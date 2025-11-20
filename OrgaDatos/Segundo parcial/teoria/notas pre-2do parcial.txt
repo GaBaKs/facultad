@@ -1,0 +1,28 @@
+-Notas Pre-Parcial ODatos--
+---------------------------
+
+-Schema no entra.
+-DTD y Json sí entra.
+-En cesar hay que especificar el abecedario y la codificacion (para saber el "sentido" del salto, ej salto 3: ABCDE... -> DEFGH...).
+-Diferencia entre revocacion (eliminar ambas claves) y eliminacion en GPG.
+https://docs.kde.org/stable5/es/kdeutils/kgpg/key-revoke.html
+https://www.rediris.es/keyserver/remove.html.es
+
+-en FAT no hay tanto indireccionamiento, por eso por ejemplo u npendrive en fat no se podra mandar archivos muy grandes de una, habra que particionarlo (con winrar por ejemplo)
+
+-en JSON no importa tanto los tipos de datos (para lenguajes no tipados, como javascript)
+solo tiene 3 elementos: [], {}, "clave":"valor"
+
+Ejemplo de un Auto:
+
+{
+	"marca"="...",
+	"modelo"="...",
+	"rueda"=["michelin","rueda2",...],
+	"f_Registro"={ "qweqwe"="qweqw",
+			...
+		     }
+
+}
+
+objetivo materia: abrir la mente je, tener mas criterios

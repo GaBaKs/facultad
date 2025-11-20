@@ -1,0 +1,30 @@
+Firma digital
+-------------
+
+Emisor (el que firma):
+
+1) se aplica una funcion hash al documento que devuelve una huella digital (es como un identificador del documento, diferente a cualquier otro).
+
+2) se encripta esa huella con nuestra llave privada.
+
+3) se almacena dicha encriptacion dentro del documento, y tambien se almacena nuestra clave publica.
+
+
+Receptor (el que valida):
+
+1) se aplica una funcion hash al documento que devuelve su huella digital.
+
+2) se desEncripta la huella que tenia almacenado el archivo, usando la clave publica que tambien se obtuvo del documento.
+
+3) se valida que ambas huellas coincidan.
+
+--------------------------------------------
+
+Notas:
+*Esto de firmar digitalmente, es mas que nada para hacer verificaciones, podremos igualmente acceder al contenido del archivo firmado.
+
+*si ambas huellas No coinciden en la validacion, quiere decir que alguien modificó el contenido del archivo luego de que haya sido firmado. Si coinciden, tenemos certeza de que recibimos lo que el emisor realmente mandó.
+
+*si queremos tambien podemos primero encriptar nuestro mensaje con la clave publica del destinatario, y luego firmar dicha encriptacion.
+
+*Si firmamos asi nomas, es una firma electronica, que no está regulada por la ley. Para que tenga validez (y podamos comprobar la identidad del firmante), dicha firma debe estar regulada por una autoridad certificante. Esta entidad vincula claves publicas con identidades fisicas, entonces la persona que recibe un mensaje firmado, puede constatar la identidad del firmante consultando la clave publica recibida a la autoridad. A todo esto se le llama firma digital.
