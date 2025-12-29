@@ -1,0 +1,56 @@
+Determine el código del recurso compartido para el siguiente caso:
+Se tiene una biblioteca con un catalogo de 20 diferentes libros. De cada libro existen varios ejemplares/copias.
+El socio de la biblioteca solicita un determinado libro del catalogo. Si está disponible alguna copia del libro, 
+se lo lleva, si no está disponible, queda en espera hasta que lo devuelvan.
+Diseñe y escriba código java del recurso compartido.
+Escriba una versión con wait/notify y otra con semáforos. Las dos. La de semáforos vale menos que la de wait/notify.
+------------------------------------------------------------------------------------------------------------------
+VERSION CON NOTIFY/WAIT
+------------------------------------------------------------------------------------------------------------------
+public class Libro(){
+    private int idLibro;
+    private int cantDisponible;
+    //tendra getters/setters y un constructor con parametro idLibro.
+    public void agregaEjemplar(){}
+    public void sacaEjemplar(){}
+    //metodos que aumentan o disminuyen la cant disponible en 1.
+}
+
+import java.util.ArrayList;
+import modelo.Libro;//asumo que tengo la clase libro en el paquete modelo
+
+public class Biblioteca(){
+    private ArrayList<Libro> libros=new ArrayList<Libro>();
+    (...)
+    public synchronized void RetiraLibro(Libro l){
+
+        while(!this.libroDisponible(l)){
+            System.out.println("No existen ejemplares disponibles para el libro, debera esperar");
+            wait();
+        }
+        System.out.println("Se va a retirar el libro de la biblioteca");
+        l.sacaEjemplar();
+    }
+
+    public synchronized void devuelveLibro(Libro l){
+        System.out.println("se va a devolver el libro a la biblioteca");
+        l.agregaEjemplar();
+        Notifyall();
+    }
+
+    public boolean libroDisponible(Libro l){
+        Libro act;
+        boolean rta=false;
+        int i=0;
+        while(!rta && i<libros.size()){
+            act=libros.get(i)
+            if(act.getIdLibro()==l.getIdLibro() && act.getCantDisponible>0)
+                rta=true;
+            i++;
+        }
+        return rta;
+    }
+}
+------------------------------------------------------------------------------------------------------------------
+VERSION CON SEMAFOROS
+------------------------------------------------------------------------------------------------------------------

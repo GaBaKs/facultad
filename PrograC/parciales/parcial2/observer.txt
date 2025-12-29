@@ -1,0 +1,48 @@
+hacer un ejemplo de patron Observer, voy a implementar las clases observer y observable!!
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+un ejemplo podria ser la ventana de avisos del campus de la facultad.
+Cada vez que se publica un aviso nuevo por parte de la catedra, aquellos alumnos que hayan activado las notificaciones van a recibir un mail informando que hubo
+un nuevo aviso en esta ventana.
+En este ejemplo: los observers son los alumnos subscriptos, que en cualquier momento pueden darse de baja o volver a subcribirse a este sistema
+mediante los metodos addObserver y deleteObserver de la clase Observable.
+el observable seria la ventana de avisos.
+
+import java.util.Observable;
+import java.util.Observer;
+import java.util.ArrayList;
+
+//tambien debera haber una clase aviso que contenga campos: asunto, usuario, mensaje, etc.
+//voy a suponer que no se pueden eliminar avisos de esta ventana, de todas maneras las notificaciones son solo para nuevos avisos.
+
+public class VentanaAvisos extends Observable{
+    private ArrayList<Aviso> avisos=new ArrayList<Aviso>();
+
+    public VentanaAvisos(){}
+
+    public void agregaAviso(Aviso a){
+        avisos.add(a);
+        setChanged();
+        notifyObservers(a);
+    }
+}
+
+public class Usuario implements Observer{
+    private VentanaAvisos observado;
+    private String email;
+    //...otros datos del usuario
+
+    public Usuario(Observable o,String email){
+        observado=o;
+        observado.addObserver(this);
+        this.email=email;
+    }
+
+    public void update(Observable obs,Object obj){
+        Aviso aux;
+        if(obs!=observado){
+            throw new IllegalArgumentExpresion();
+        }
+        aux=(Aviso)obj;
+        aux.enviarNotificacion(this.email);//el usuario va a recibir por correo una notificacion sobre este aviso.
+    }
+}
