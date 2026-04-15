@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://ubb0ywl85ho8"]
+
+[ext_resource type="Script" uid="uid://b84ic0oy3wweg" path="res://jugador.gd" id="1_omvyu"]
+[ext_resource type="Texture2D" uid="uid://cffuqojix0bt8" path="res://assets/icono cosecha oscura.png" id="2_8o684"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ukil5"]
+radius = 55.081757
+
+[sub_resource type="Animation" id="Animation_7st5j"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.16580628]
+}
+
+[sub_resource type="Animation" id="Animation_cvhml"]
+resource_name = "test"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.5, 0.98),
+"transitions": PackedFloat32Array(2.7320805, 2.7320805),
+"update": 0,
+"values": [0.16580628, -0.16406095]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_btb33"]
+_data = {
+&"RESET": SubResource("Animation_7st5j"),
+&"test": SubResource("Animation_cvhml")
+}
+
+[node name="jugador" type="CharacterBody2D" unique_id=227147454]
+script = ExtResource("1_omvyu")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1343141153]
+rotation = 0.16580628
+texture = ExtResource("2_8o684")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=906870422]
+position = Vector2(-3, 58)
+shape = SubResource("CircleShape2D_ukil5")
+
+[node name="animaciones" type="AnimationPlayer" parent="." unique_id=33782896]
+libraries/ = SubResource("AnimationLibrary_btb33")
